@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>OCCAM – Giuseppe Milano</title>
+<title>Multiscale Simulation Methods – Giuseppe Milano</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -104,7 +104,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Scientific Path</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./occam.html" aria-current="page"> 
+    <a class="nav-link" href="./occam.html"> 
 <span class="menu-text">OCCAM</span></a>
   </li>  
   <li class="nav-item">
@@ -135,11 +135,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#why-occam" id="toc-why-occam" class="nav-link active" data-scroll-target="#why-occam">Why OCCAM</a></li>
-  <li><a href="#scientific-role" id="toc-scientific-role" class="nav-link" data-scroll-target="#scientific-role">Scientific role</a></li>
-  <li><a href="#current-use" id="toc-current-use" class="nav-link" data-scroll-target="#current-use">Current use</a></li>
-  <li><a href="#development" id="toc-development" class="nav-link" data-scroll-target="#development">Development</a></li>
-  <li><a href="#publication-based-code-timeline" id="toc-publication-based-code-timeline" class="nav-link" data-scroll-target="#publication-based-code-timeline">Publication-based code timeline</a></li>
+  <li><a href="#coarse-graining-without-losing-chemistry" id="toc-coarse-graining-without-losing-chemistry" class="nav-link active" data-scroll-target="#coarse-graining-without-losing-chemistry">Coarse-graining without losing chemistry</a></li>
+  <li><a href="#effective-potentials-and-iterative-boltzmann-inversion" id="toc-effective-potentials-and-iterative-boltzmann-inversion" class="nav-link" data-scroll-target="#effective-potentials-and-iterative-boltzmann-inversion">Effective potentials and Iterative Boltzmann Inversion</a></li>
+  <li><a href="#backmapping" id="toc-backmapping" class="nav-link" data-scroll-target="#backmapping">Backmapping</a></li>
+  <li><a href="#particles-and-fields" id="toc-particles-and-fields" class="nav-link" data-scroll-target="#particles-and-fields">Particles and fields</a></li>
+  <li><a href="#from-methods-to-scientific-software" id="toc-from-methods-to-scientific-software" class="nav-link" data-scroll-target="#from-methods-to-scientific-software">From methods to scientific software</a></li>
   </ul>
 </nav>
     </div>
@@ -148,7 +148,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">OCCAM</h1>
+<h1 class="title">Multiscale Simulation Methods</h1>
 </div>
 
 
@@ -165,55 +165,49 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>OCCAM is a molecular simulation platform developed for hybrid particle–field molecular dynamics of chemically complex soft-matter systems.</p>
+<p>My methodological work addresses a central problem in molecular simulation: how to extend accessible length and time scales while preserving the chemical information that matters.</p>
+<section id="coarse-graining-without-losing-chemistry" class="level2">
+<h2 class="anchored" data-anchor-id="coarse-graining-without-losing-chemistry">Coarse-graining without losing chemistry</h2>
+<p>For me, coarse-graining is not only a way to make simulations faster. It asks which molecular information must be preserved when the resolution of a model is reduced.</p>
+<p>In vinyl polymers, I developed systematic procedures that map atomistic simulations onto mesoscopic models while retaining stereochemical sequences. Coarse-grained beads represent meso or racemo diads, so the reduced model carries a chemically meaningful code inherited from the atomistic structure.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://sites.google.com/view/occammd/home" target="_blank"><img src="assets/figures/occam.jpg" class="img-fluid figure-img" style="width:85.0%" alt="OCCAM"></a></p>
-<figcaption>occam website.</figcaption>
+<p><a href="https://doi.org/10.1021/jp0523571" target="_blank"><img src="assets/figures/coarse_graining1.jpg" class="img-fluid figure-img" style="width:85.0%" alt="Atomistic information mapped onto mesoscopic beads while preserving stereochemical sequences"></a></p>
+<figcaption>Coarse-graining of vinyl polymer chains.</figcaption>
 </figure>
 </div>
-<p>It is part of a broader effort to make density-field molecular simulations scalable, reproducible and useful for systems where molecular identity and mesoscale organization are both important.</p>
-<section id="why-occam" class="level2">
-<h2 class="anchored" data-anchor-id="why-occam">Why OCCAM</h2>
-<p>Many soft-matter systems are too large, heterogeneous or slowly evolving to be efficiently studied with conventional molecular dynamics alone.</p>
-<p>OCCAM was developed to address this class of problems by combining molecular particles with density fields. Molecular particles retain architecture, connectivity and chemical identity, while density fields describe collective interactions and spatial organization.</p>
 </section>
-<section id="scientific-role" class="level2">
-<h2 class="anchored" data-anchor-id="scientific-role">Scientific role</h2>
-<p>For me, OCCAM is not only a computational tool. It is a platform where methodological ideas can be implemented, tested and applied to real chemical systems.</p>
-<p>It connects several parts of my work:</p>
-<ul>
-<li>coarse-grained molecular simulation;</li>
-<li>hybrid particle–field molecular dynamics;</li>
-<li>polymers and soft materials;</li>
-<li>biomembranes and interfaces;</li>
-<li>nanocomposites and nanoplastics;</li>
-<li>scalable scientific computing.</li>
-</ul>
+<section id="effective-potentials-and-iterative-boltzmann-inversion" class="level2">
+<h2 class="anchored" data-anchor-id="effective-potentials-and-iterative-boltzmann-inversion">Effective potentials and Iterative Boltzmann Inversion</h2>
+<p>I used Iterative Boltzmann Inversion to refine effective interactions until a coarse-grained model reproduced structural distributions obtained from atomistic simulations. The same strategy was applied to non-bonded radial distribution functions and to the bond and angle distributions that encode molecular architecture.</p>
+<p>A related development was the introduction of multicentered Gaussian-based potentials. Sums of Gaussian functions provided an analytical and interpretable alternative to fully tabulated bonded potentials, while retaining the flexibility required to reproduce complex, multipeaked atomistic distributions.</p>
 </section>
-<section id="current-use" class="level2">
-<h2 class="anchored" data-anchor-id="current-use">Current use</h2>
-<p>OCCAM is used to study chemically specific soft-matter systems where collective organization plays a central role.</p>
-<p>Examples include polymer melts, surfactant assemblies, biomembranes, grafted polymers, brushes, polymer nanocomposites and micro/nanoplastics.</p>
-</section>
-<section id="development" class="level2">
-<h2 class="anchored" data-anchor-id="development">Development</h2>
-<p>Recent development has focused on performance, scalability and the extension of the code toward more complex molecular models and workflows.</p>
-<p>In a very Italian sense, I sometimes think of OCCAM as a small “Fabbrica di San Pietro”: a living construction site rather than a finished object. It grows through additions, corrections, repairs and new ambitions, while preserving traces of the scientific questions that originally motivated it.</p>
+<section id="backmapping" class="level2">
+<h2 class="anchored" data-anchor-id="backmapping">Backmapping</h2>
+<p>The inverse problem is equally important: reconstructing chemically realistic atomistic structures from coarse-grained configurations. For vinyl polymers, the procedure must preserve local stereochemistry while placing atomistic fragments onto the coarse-grained geometry.</p>
+<p>I developed a fast geometrical procedure based on libraries of stereochemically compatible fragments and quaternion-derived optimal rotations. This makes it possible to move from equilibrated coarse-grained configurations back to chemically detailed atomistic models without expensive force evaluations.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://en.wikipedia.org/wiki/Fabric_of_Saint_Peter" target="_blank"><img src="assets/figures/fabbrica.jpg" class="img-fluid figure-img" style="width:85.0%" alt="Permanent work in progress"></a></p>
-<figcaption>permanent work in progress.</figcaption>
+<p><a href="https://doi.org/10.1021/jp066212l" target="_blank"><img src="assets/figures/back_mapping.jpg" class="img-fluid figure-img" style="width:85.0%" alt="Atomistic fragments reconstructed on a coarse-grained polymer chain"></a></p>
+<figcaption>Reverse mapping of coarse-grained polymer models.</figcaption>
 </figure>
 </div>
-<p>At the same time, a living construction site cannot remain permanently provisional. Every few years, together with different collaborators and students, we consolidate the code into an official version. These versions collect the implementations that have been tested, validated and used in scientific applications, providing stable reference points for further developments.</p>
 </section>
-<section id="publication-based-code-timeline" class="level2">
-<h2 class="anchored" data-anchor-id="publication-based-code-timeline">Publication-based code timeline</h2>
-<p>2009 - Original hPF-MD implementation: Core hybrid particle-field molecular dynamics implementation and dense-polymer applications establish the methodological basis of the OCCAM code family. <a href="https://doi.org/10.1063/1.3142103" target="_blank">Journal of Chemical Physics 2009</a></p>
-<p>2012 - Multi-node multi-CPU parallelization: MPI molecular decomposition and density-field reductions demonstrate that OCCAM can scale to large hPF-MD systems. <a href="https://doi.org/10.1002/jcc.22883" target="_blank">Journal of Computational Chemistry 2012</a></p>
-<p>2021 - Optimized multi-CPU large-scale: Interface-aware, derivative, interpolation optimizations enable multi-million bead simulations <a href="https://doi.org/10.1021/acs.jctc.0c01095" target="_blank">Journal of Chemical Theory and Computation 2021</a></p>
-<p>2025 - Multi-node multi-GPU OCCAM: GPU-resident implementation suitable for giant simulations up to 10 billion-particle scales. <a href="https://doi.org/10.1002/jcc.70126" target="_blank">Journal of Computational Chemistry 2025</a></p>
+<section id="particles-and-fields" class="level2">
+<h2 class="anchored" data-anchor-id="particles-and-fields">Particles and fields</h2>
+<p>Together with Toshihiro Kawakatsu, I developed hybrid particle–field molecular dynamics. Molecular particles retain architecture, connectivity and chemical identity, while collective non-bonded interactions are described through density fields.</p>
+<p>This provides a bridge between molecular simulation and field-based descriptions of soft matter: particles carry molecular structure; fields describe mesoscale organization. The framework was later extended to charged systems by treating electrostatic organization through self-consistent fields.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://doi.org/10.1063/1.3142103" target="_blank"><img src="assets/figures/hpfmd1.jpg" class="img-fluid figure-img" style="width:85.0%" alt="Molecular particles coupled to density fields"></a></p>
+<figcaption>Hybrid particle-field molecular dynamics.</figcaption>
+</figure>
+</div>
+</section>
+<section id="from-methods-to-scientific-software" class="level2">
+<h2 class="anchored" data-anchor-id="from-methods-to-scientific-software">From methods to scientific software</h2>
+<p>These developments are implemented in <a href="./occam.html">OCCAM</a>, a molecular simulation code that originated with chemically specific coarse-grained models and later became the platform for hybrid particle–field molecular dynamics. Developing an independent code has allowed effective potentials, algorithms and physical ideas to be tested together and scaled to massively parallel, multi-GPU simulations.</p>
+<p><a href="./publications.html#coarse-graining-and-backmapping">Selected publications</a></p>
 
 
 </section>

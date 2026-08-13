@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>OCCAM – Giuseppe Milano</title>
+<title>Biological and Environmental Systems – Giuseppe Milano</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -104,7 +104,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Scientific Path</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./occam.html" aria-current="page"> 
+    <a class="nav-link" href="./occam.html"> 
 <span class="menu-text">OCCAM</span></a>
   </li>  
   <li class="nav-item">
@@ -135,11 +135,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#why-occam" id="toc-why-occam" class="nav-link active" data-scroll-target="#why-occam">Why OCCAM</a></li>
-  <li><a href="#scientific-role" id="toc-scientific-role" class="nav-link" data-scroll-target="#scientific-role">Scientific role</a></li>
-  <li><a href="#current-use" id="toc-current-use" class="nav-link" data-scroll-target="#current-use">Current use</a></li>
-  <li><a href="#development" id="toc-development" class="nav-link" data-scroll-target="#development">Development</a></li>
-  <li><a href="#publication-based-code-timeline" id="toc-publication-based-code-timeline" class="nav-link" data-scroll-target="#publication-based-code-timeline">Publication-based code timeline</a></li>
+  <li><a href="#biomembranes" id="toc-biomembranes" class="nav-link active" data-scroll-target="#biomembranes">Biomembranes</a></li>
+  <li><a href="#nanoplastics-and-biointerfaces" id="toc-nanoplastics-and-biointerfaces" class="nav-link" data-scroll-target="#nanoplastics-and-biointerfaces">Nanoplastics and biointerfaces</a></li>
   </ul>
 </nav>
     </div>
@@ -148,7 +145,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">OCCAM</h1>
+<h1 class="title">Biological and Environmental Systems</h1>
 </div>
 
 
@@ -165,55 +162,35 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>OCCAM is a molecular simulation platform developed for hybrid particle–field molecular dynamics of chemically complex soft-matter systems.</p>
+<p>Biological and environmental systems test whether multiscale models can retain meaningful chemical specificity while addressing strongly heterogeneous, dynamic and compositionally complex matter.</p>
+<section id="biomembranes" class="level2">
+<h2 class="anchored" data-anchor-id="biomembranes">Biomembranes</h2>
+<p>Membranes are organized, heterogeneous and dynamic. Their behaviour depends on molecular architecture, lipid composition, headgroup chemistry, tail structure, electrostatics, hydration and interactions with surrounding molecules or particles.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://sites.google.com/view/occammd/home" target="_blank"><img src="assets/figures/occam.jpg" class="img-fluid figure-img" style="width:85.0%" alt="OCCAM"></a></p>
-<figcaption>occam website.</figcaption>
+<p><a href="https://doi.org/10.1021/ct200132n" target="_blank"><img src="assets/figures/lipid1.jpg" class="img-fluid figure-img" style="width:85.0%" alt="Molecular simulation of a lipid bilayer"></a></p>
+<figcaption>Coarse-grained molecular model of a lipid membrane.</figcaption>
 </figure>
 </div>
-<p>It is part of a broader effort to make density-field molecular simulations scalable, reproducible and useful for systems where molecular identity and mesoscale organization are both important.</p>
-<section id="why-occam" class="level2">
-<h2 class="anchored" data-anchor-id="why-occam">Why OCCAM</h2>
-<p>Many soft-matter systems are too large, heterogeneous or slowly evolving to be efficiently studied with conventional molecular dynamics alone.</p>
-<p>OCCAM was developed to address this class of problems by combining molecular particles with density fields. Molecular particles retain architecture, connectivity and chemical identity, while density fields describe collective interactions and spatial organization.</p>
-</section>
-<section id="scientific-role" class="level2">
-<h2 class="anchored" data-anchor-id="scientific-role">Scientific role</h2>
-<p>For me, OCCAM is not only a computational tool. It is a platform where methodological ideas can be implemented, tested and applied to real chemical systems.</p>
-<p>It connects several parts of my work:</p>
-<ul>
-<li>coarse-grained molecular simulation;</li>
-<li>hybrid particle–field molecular dynamics;</li>
-<li>polymers and soft materials;</li>
-<li>biomembranes and interfaces;</li>
-<li>nanocomposites and nanoplastics;</li>
-<li>scalable scientific computing.</li>
-</ul>
-</section>
-<section id="current-use" class="level2">
-<h2 class="anchored" data-anchor-id="current-use">Current use</h2>
-<p>OCCAM is used to study chemically specific soft-matter systems where collective organization plays a central role.</p>
-<p>Examples include polymer melts, surfactant assemblies, biomembranes, grafted polymers, brushes, polymer nanocomposites and micro/nanoplastics.</p>
-</section>
-<section id="development" class="level2">
-<h2 class="anchored" data-anchor-id="development">Development</h2>
-<p>Recent development has focused on performance, scalability and the extension of the code toward more complex molecular models and workflows.</p>
-<p>In a very Italian sense, I sometimes think of OCCAM as a small “Fabbrica di San Pietro”: a living construction site rather than a finished object. It grows through additions, corrections, repairs and new ambitions, while preserving traces of the scientific questions that originally motivated it.</p>
+<p>Bacterial membranes, particularly models inspired by the outer membrane of Gram-negative bacteria, are especially demanding because chemical specificity and collective organization are tightly coupled. They provide a stringent setting for testing how far coarse-grained and particle–field models can be pushed while remaining connected to molecular detail.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://en.wikipedia.org/wiki/Fabric_of_Saint_Peter" target="_blank"><img src="assets/figures/fabbrica.jpg" class="img-fluid figure-img" style="width:85.0%" alt="Permanent work in progress"></a></p>
-<figcaption>permanent work in progress.</figcaption>
+<p><a href="https://doi.org/10.1039/d3nr00559c" target="_blank"><img src="assets/figures/biolipids.jpg" class="img-fluid figure-img" style="width:85.0%" alt="Molecular model of a bacterial membrane containing complex lipids"></a></p>
+<figcaption>Complex bacterial lipid membrane.</figcaption>
 </figure>
 </div>
-<p>At the same time, a living construction site cannot remain permanently provisional. Every few years, together with different collaborators and students, we consolidate the code into an official version. These versions collect the implementations that have been tested, validated and used in scientific applications, providing stable reference points for further developments.</p>
 </section>
-<section id="publication-based-code-timeline" class="level2">
-<h2 class="anchored" data-anchor-id="publication-based-code-timeline">Publication-based code timeline</h2>
-<p>2009 - Original hPF-MD implementation: Core hybrid particle-field molecular dynamics implementation and dense-polymer applications establish the methodological basis of the OCCAM code family. <a href="https://doi.org/10.1063/1.3142103" target="_blank">Journal of Chemical Physics 2009</a></p>
-<p>2012 - Multi-node multi-CPU parallelization: MPI molecular decomposition and density-field reductions demonstrate that OCCAM can scale to large hPF-MD systems. <a href="https://doi.org/10.1002/jcc.22883" target="_blank">Journal of Computational Chemistry 2012</a></p>
-<p>2021 - Optimized multi-CPU large-scale: Interface-aware, derivative, interpolation optimizations enable multi-million bead simulations <a href="https://doi.org/10.1021/acs.jctc.0c01095" target="_blank">Journal of Chemical Theory and Computation 2021</a></p>
-<p>2025 - Multi-node multi-GPU OCCAM: GPU-resident implementation suitable for giant simulations up to 10 billion-particle scales. <a href="https://doi.org/10.1002/jcc.70126" target="_blank">Journal of Computational Chemistry 2025</a></p>
+<section id="nanoplastics-and-biointerfaces" class="level2">
+<h2 class="anchored" data-anchor-id="nanoplastics-and-biointerfaces">Nanoplastics and biointerfaces</h2>
+<p>My environmental work follows plastic nanoparticles from their material structure to their interactions with water, ions and biological matter. The aim is to understand how polymer composition, surface chemistry, morphology and ageing influence aggregation, interfacial organization and membrane interactions.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./publications.html"><img src="assets/figures/covers/cover_nanoplastics.jpeg" class="img-fluid figure-img" style="width:75.0%" alt="Molecular-level view of nanoplastic particles"></a></p>
+<figcaption>Molecular simulation of nanoplastics and their interfaces.</figcaption>
+</figure>
+</div>
+<p>These applications are not separate from the methodological work. They ask the same fundamental question under particularly demanding conditions: how does collective behaviour emerge from molecular identity in systems that span many coupled scales?</p>
+<p><a href="./publications.html">Selected publications</a></p>
 
 
 </section>

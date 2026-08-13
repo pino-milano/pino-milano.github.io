@@ -104,10 +104,6 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Scientific Path</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
-<span class="menu-text">Research</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./occam.html"> 
 <span class="menu-text">OCCAM</span></a>
   </li>  
@@ -166,21 +162,41 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p><img src="assets/figures/giuseppe-milano.jpeg" class="profile-photo img-fluid" alt="Giuseppe Milano"></p>
-<p>I have always worked at the border between two ways of thinking about matter: the chemist’s attention to specific molecular structure, and a physicist’s instinct for describing that matter mathematically and numerically. Trained as a chemist, I have spent much of my scientific path trying to hold these two perspectives together rather than choose between them.</p>
-<p>Working at this border, I keep returning to one question: how can we model molecular systems that are large, heterogeneous, and evolve on timescales far beyond what atomistic detail alone can reach — without losing the chemical identity, architecture, and specificity that make them what they are?</p>
-<p>Following this question has taken me from atomistic and coarse-grained polymer simulations, through reverse mapping, to hybrid particle-field molecular dynamics. To turn these ideas into something usable, I have led the development of the software myself — most notably OCCAM, a massively parallel code, capable of running on multi-GPU architectures, that performs hybrid particle-field molecular dynamics (hPF-MD), pushing simulations into the multi-billion-particle regime. OCCAM was the first code of its kind, and its development now spans about fifteen years, coupling molecular-level chemical specificity with the slow, collective dynamics of mesoscale systems, and making it possible to follow the evolution of large, heterogeneous molecular systems without averaging away what makes them chemically distinct.</p>
-<p>Along the way, the range of systems I work on has grown: polymer melts, biomembranes, surfactants, nanocomposites, polymer brushes, carbon black interfaces, nanoplastics. What has stayed the same is the underlying problem — connecting molecular detail to collective organization, without sacrificing one for the other.</p>
-<p>This website tells that path: the questions that have shaped my work as a chemist drawn to physics, the methods I have developed to hold the two together, the systems that have tested them, and the directions I am exploring now.</p>
+<p>I work at the border between two ways of understanding matter: the chemist’s attention to molecular identity and the physicist’s search for mathematical and computational descriptions.</p>
+<p>I want to understand how matter works: how molecular structure and interactions give rise to the collective properties of complex systems. Molecular simulation provides a way to connect these different scales, following the emergence of collective behaviour without losing chemical specificity.</p>
+<p>Across polymers, biomembranes, surfactants, nanocomposites, and nanoplastics, the underlying goal remains the same: connecting molecular detail with collective organization without sacrificing either. A central and continuing focus of my work is hybrid particle–field molecular dynamics (hPF‑MD). For more than fifteen years, I have continued to advance this approach and its implementation in OCCAM, a massively parallel molecular simulation code that combines chemically specific molecular models with field-based descriptions of non-bonded interactions, enabling simulations of large and complex systems without losing molecular architecture and identity.</p>
 <section id="themes-in-my-work" class="level2">
 <h2 class="anchored" data-anchor-id="themes-in-my-work">Themes in my work</h2>
-<ul>
-<li>Molecular simulation of chemically complex soft matter</li>
-<li>Coarse-grained models and reverse mapping</li>
-<li>Hybrid particle–field molecular dynamics</li>
-<li>OCCAM and scalable simulation platforms</li>
-<li>Polymers, membranes, nanocomposites and nanoplastics</li>
-<li>Density-based descriptions of collective organization</li>
-</ul>
+<div class="grid">
+<div class="g-col-12 g-col-md-6">
+<p><a href="./multiscale-methods.html"><img src="assets/figures/lipid1.jpg" class="img-fluid" alt="Multiscale molecular simulation of a lipid membrane"></a></p>
+<section id="multiscale-simulation-methods" class="level3">
+<h3 class="anchored" data-anchor-id="multiscale-simulation-methods"><a href="./multiscale-methods.html">Multiscale Simulation Methods</a></h3>
+<p>Coarse-graining, backmapping, particle–field models, and high-performance molecular simulation.</p>
+</section>
+</div>
+<div class="g-col-12 g-col-md-6">
+<p><a href="./polymers-soft-matter.html"><img src="assets/figures/back_mapping.jpg" class="img-fluid" alt="Coarse-grained and atomistic representations of polymer chains"></a></p>
+<section id="polymers-and-soft-matter" class="level3">
+<h3 class="anchored" data-anchor-id="polymers-and-soft-matter"><a href="./polymers-soft-matter.html">Polymers and Soft Matter</a></h3>
+<p>Polymer dynamics, complex molecular architectures, and collective organization.</p>
+</section>
+</div>
+<div class="g-col-12 g-col-md-6">
+<p><a href="./interfaces-nanomaterials.html"><img src="assets/figures/covers/cover_carbonblack_macromolecules.jpeg" class="img-fluid" alt="Molecular organization at a carbon black polymer interface"></a></p>
+<section id="interfaces-and-nanomaterials" class="level3">
+<h3 class="anchored" data-anchor-id="interfaces-and-nanomaterials"><a href="./interfaces-nanomaterials.html">Interfaces and Nanomaterials</a></h3>
+<p>Molecular organization at polymer, nanoparticle, and material interfaces.</p>
+</section>
+</div>
+<div class="g-col-12 g-col-md-6">
+<p><a href="./biological-environmental-systems.html"><img src="assets/figures/biolipids.jpg" class="img-fluid" alt="Molecular model of a complex biological membrane"></a></p>
+<section id="biological-and-environmental-systems" class="level3">
+<h3 class="anchored" data-anchor-id="biological-and-environmental-systems"><a href="./biological-environmental-systems.html">Biological and Environmental Systems</a></h3>
+<p>Biomembranes, complex biointerfaces, and the molecular behaviour of nanoplastics.</p>
+</section>
+</div>
+</div>
 
 
 </section>
@@ -259,7 +275,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/pino-milano\.github\.io\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
