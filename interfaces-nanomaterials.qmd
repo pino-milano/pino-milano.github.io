@@ -1,0 +1,25 @@
+---
+title: "Interfaces and Nanomaterials"
+---
+
+Interfaces are where molecular specificity and collective organization meet most directly. My work examines how polymers and complex molecular fluids organize near nanoparticles, solid surfaces and grafted materials, and how this interfacial structure influences macroscopic behaviour.
+
+## Polymer–nanoparticle interfaces
+
+Nanocomposites pose a characteristic multiscale problem: the local chemistry of a surface controls adsorption and packing, while the response of polymer chains extends far into the surrounding material. Coarse-grained and hybrid particle–field models make it possible to study these extended interphases without reducing the polymer to a chemically anonymous medium.
+
+[![Polymer organization around carbon black.](assets/figures/covers/cover_carbonblack_macromolecules.jpeg){width="75%" fig-alt="Molecular organization at a carbon black polymer interface"}](publications.qmd)
+
+## Grafted and structured surfaces
+
+Polymer brushes and grafted nanoparticles provide controlled systems in which chain architecture, grafting density, solvent conditions and surface curvature compete. They allow simulations to connect molecular design with steric stabilization, interfacial response and the organization of surrounding molecules.
+
+[![Molecular simulation of grafted polymer materials.](assets/figures/covers/cover_brush.jpeg){width="70%" fig-alt="Polymer chains grafted to a material interface"}](publications.qmd)
+
+## Complex material interfaces
+
+I use these systems not only as applications, but also as demanding tests of simulation methodology. Heterogeneous interfaces require models that can retain distinct chemical components while following collective rearrangements over large domains and long times.
+
+[![Molecular modelling of carbon-black interfaces.](assets/figures/covers/cover_jctc_carbonblack.jpeg){width="70%" fig-alt="Computational model of a carbon black interface"}](publications.qmd)
+
+[Selected publications](publications.qmd)

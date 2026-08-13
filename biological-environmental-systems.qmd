@@ -1,0 +1,25 @@
+---
+title: "Biological and Environmental Systems"
+---
+
+Biological and environmental systems test whether multiscale models can retain meaningful chemical specificity while addressing strongly heterogeneous, dynamic and compositionally complex matter.
+
+## Biomembranes
+
+Membranes are organized, heterogeneous and dynamic. Their behaviour depends on molecular architecture, lipid composition, headgroup chemistry, tail structure, electrostatics, hydration and interactions with surrounding molecules or particles.
+
+[![Coarse-grained molecular model of a lipid membrane.](assets/figures/lipid1.jpg){width="85%" fig-alt="Molecular simulation of a lipid bilayer"}](https://doi.org/10.1021/ct200132n){target="_blank"}
+
+Bacterial membranes, particularly models inspired by the outer membrane of Gram-negative bacteria, are especially demanding because chemical specificity and collective organization are tightly coupled. They provide a stringent setting for testing how far coarse-grained and particle–field models can be pushed while remaining connected to molecular detail.
+
+[![Complex bacterial lipid membrane.](assets/figures/biolipids.jpg){width="85%" fig-alt="Molecular model of a bacterial membrane containing complex lipids"}](https://doi.org/10.1039/d3nr00559c){target="_blank"}
+
+## Nanoplastics and biointerfaces
+
+My environmental work follows plastic nanoparticles from their material structure to their interactions with water, ions and biological matter. The aim is to understand how polymer composition, surface chemistry, morphology and ageing influence aggregation, interfacial organization and membrane interactions.
+
+[![Molecular simulation of nanoplastics and their interfaces.](assets/figures/covers/cover_nanoplastics.jpeg){width="75%" fig-alt="Molecular-level view of nanoplastic particles"}](publications.qmd)
+
+These applications are not separate from the methodological work. They ask the same fundamental question under particularly demanding conditions: how does collective behaviour emerge from molecular identity in systems that span many coupled scales?
+
+[Selected publications](publications.qmd)

@@ -1,0 +1,41 @@
+---
+title: "Multiscale Simulation Methods"
+---
+
+My methodological work addresses a central problem in molecular simulation: how to extend accessible length and time scales while preserving the chemical information that matters.
+
+## Coarse-graining without losing chemistry
+
+For me, coarse-graining is not only a way to make simulations faster. It asks which molecular information must be preserved when the resolution of a model is reduced.
+
+In vinyl polymers, I developed systematic procedures that map atomistic simulations onto mesoscopic models while retaining stereochemical sequences. Coarse-grained beads represent meso or racemo diads, so the reduced model carries a chemically meaningful code inherited from the atomistic structure.
+
+[![Coarse-graining of vinyl polymer chains.](assets/figures/coarse_graining1.jpg){width="85%" fig-alt="Atomistic information mapped onto mesoscopic beads while preserving stereochemical sequences"}](https://doi.org/10.1021/jp0523571){target="_blank"}
+
+## Effective potentials and Iterative Boltzmann Inversion
+
+I used Iterative Boltzmann Inversion to refine effective interactions until a coarse-grained model reproduced structural distributions obtained from atomistic simulations. The same strategy was applied to non-bonded radial distribution functions and to the bond and angle distributions that encode molecular architecture.
+
+A related development was the introduction of multicentered Gaussian-based potentials. Sums of Gaussian functions provided an analytical and interpretable alternative to fully tabulated bonded potentials, while retaining the flexibility required to reproduce complex, multipeaked atomistic distributions.
+
+## Backmapping
+
+The inverse problem is equally important: reconstructing chemically realistic atomistic structures from coarse-grained configurations. For vinyl polymers, the procedure must preserve local stereochemistry while placing atomistic fragments onto the coarse-grained geometry.
+
+I developed a fast geometrical procedure based on libraries of stereochemically compatible fragments and quaternion-derived optimal rotations. This makes it possible to move from equilibrated coarse-grained configurations back to chemically detailed atomistic models without expensive force evaluations.
+
+[![Reverse mapping of coarse-grained polymer models.](assets/figures/back_mapping.jpg){width="85%" fig-alt="Atomistic fragments reconstructed on a coarse-grained polymer chain"}](https://doi.org/10.1021/jp066212l){target="_blank"}
+
+## Particles and fields
+
+Together with Toshihiro Kawakatsu, I developed hybrid particle–field molecular dynamics. Molecular particles retain architecture, connectivity and chemical identity, while collective non-bonded interactions are described through density fields.
+
+This provides a bridge between molecular simulation and field-based descriptions of soft matter: particles carry molecular structure; fields describe mesoscale organization. The framework was later extended to charged systems by treating electrostatic organization through self-consistent fields.
+
+[![Hybrid particle-field molecular dynamics.](assets/figures/hpfmd1.jpg){width="85%" fig-alt="Molecular particles coupled to density fields"}](https://doi.org/10.1063/1.3142103){target="_blank"}
+
+## From methods to scientific software
+
+These developments are implemented in [OCCAM](occam.qmd), a molecular simulation code that originated with chemically specific coarse-grained models and later became the platform for hybrid particle–field molecular dynamics. Developing an independent code has allowed effective potentials, algorithms and physical ideas to be tested together and scaled to massively parallel, multi-GPU simulations.
+
+[Selected publications](publications.qmd#coarse-graining-and-backmapping)
