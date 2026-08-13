@@ -1,0 +1,37 @@
+---
+title: "Story"
+---
+
+My scientific work has developed around a recurring problem: how to describe molecular systems that are too large, heterogeneous and slowly evolving for conventional atomistic simulations, but too chemically specific to be treated as generic soft matter.
+
+This problem has followed me through different systems and methods: polymers, coarse-grained models, reverse mapping, hybrid particle--field molecular dynamics, biomembranes, nanocomposites, polymer brushes, nanoplastics and software development.
+
+## From molecular detail to larger scales
+
+My early work was rooted in molecular simulation of polymeric and soft-matter materials. These systems are chemically rich, but their relevant behaviour often emerges at scales that are difficult to reach with atomistic molecular dynamics alone.
+
+This led me to work on coarse-grained models and reverse-mapping strategies: ways of moving between molecular detail and simplified representations without losing the structural and chemical identity of the system.
+
+## Particles and fields
+
+A major step in this trajectory was the development and use of hybrid particle--field molecular dynamics. In this approach, molecular particles preserve architecture, connectivity and chemical identity, while density fields describe collective non-bonded interactions and mesoscale organization.
+
+This particle--field viewpoint has shaped much of my work since then. It offers a way to extend molecular simulation toward larger and more complex systems, while keeping a direct connection to molecular chemistry.
+
+## From methods to chemical soft matter
+
+Over the years, I have applied and extended these ideas to a range of chemically complex soft-matter systems, including polymer melts, surfactants, biomembranes, polymer nanocomposites, carbon black--polymer interfaces, grafted polymers, brushes and micro/nanoplastics.
+
+The common thread is not a single material class, but a methodological question: how can molecular simulation remain chemically meaningful when collective organization, interfaces and morphology become essential?
+
+## OCCAM
+
+The development of OCCAM is part of this same trajectory. OCCAM is a hybrid particle--field molecular dynamics platform designed to make chemically specific density-field simulations scalable and usable for large soft-matter systems.
+
+For me, software is not separate from scientific vision. It is the place where ideas about models, approximations, algorithms and applications become testable.
+
+## Where this leads
+
+My current work continues this path. I am interested in density-based descriptions that remain connected to molecular chemistry and can help describe structure, organization and behaviour in complex soft matter.
+
+The broader goal is to build molecular simulation approaches that are physically grounded, chemically meaningful and useful for systems where molecular detail and mesoscale organization cannot be separated.

@@ -1,0 +1,48 @@
+---
+title: "Research"
+---
+
+My research is centred on molecular simulation methods for chemically complex soft-matter systems.
+
+The systems I study are often heterogeneous, slowly evolving and organized over multiple length scales. They include polymers, surfactants, membranes, nanocomposites, grafted interfaces, brushes and nanoplastics.
+
+The common methodological question is how to connect molecular identity with collective organization.
+
+## Coarse-grained molecular models
+
+Coarse-grained models make it possible to study molecular systems beyond the length and time scales accessible to fully atomistic simulations.
+
+In my work, coarse-graining has not been only a way to reduce computational cost. It has been a way to ask how much molecular information is needed to describe structure, organization and material behaviour.
+
+## Reverse mapping
+
+Reverse mapping connects simplified molecular representations back to more detailed atomistic structures.
+
+This has been an important part of my work because it preserves a link between efficient coarse-grained simulations and chemically realistic molecular models.
+
+## Hybrid particle--field molecular dynamics
+
+Hybrid particle--field molecular dynamics combines molecular particles with density fields.
+
+Particles preserve molecular architecture, connectivity and chemical identity. Density fields describe collective non-bonded interactions and mesoscale organization.
+
+This approach is especially useful for dense and complex soft-matter systems, where many-body organization is central.
+
+## Chemically complex soft matter
+
+I have applied and extended these methods to a range of soft-matter systems, including:
+
+- polymer melts and polymer nanocomposites;
+- surfactants and amphiphilic assemblies;
+- biomembranes and lipid systems;
+- grafted polymers and brushes;
+- carbon black--polymer interfaces;
+- micro- and nanoplastics.
+
+These systems are diverse, but they share a common feature: their behaviour depends on both molecular chemistry and collective organization.
+
+## Density-based descriptions
+
+A recurring theme in my current work is the role of density-based descriptions in molecular simulation.
+
+Density fields can provide a language for composition, morphology, interfaces and mesoscale structure. The challenge is to keep this language connected to chemistry, rather than turning it into a generic continuum description.

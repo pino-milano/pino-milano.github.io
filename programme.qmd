@@ -1,0 +1,27 @@
+---
+title: "Current Programme"
+---
+
+## Chemically meaningful density fields
+
+My current programme aims to develop a new generation of density-field molecular simulation methods for chemically specific soft matter.
+
+The central idea is that density fields should not be treated only as computational devices. They should become physically interpretable and chemically meaningful variables.
+
+## Main directions
+
+### Fluctuation-aware field formulations
+
+Traditional hybrid particle–field molecular dynamics relies on mean-field approximations. A major goal is to develop formulations that retain the computational advantages of density fields while improving the treatment of fluctuations.
+
+### Physically grounded field functionals
+
+A second direction is to connect field-based interactions with liquid-state theory, equations of state and classical density functional concepts.
+
+### Field-based free-energy and morphology sampling
+
+Many soft-matter systems are governed by changes in morphology: aggregation, adsorption, insertion, phase separation, interfacial restructuring and self-assembly. Density fields provide natural collective variables for describing these processes.
+
+### Applications
+
+Target systems include polymer melts, nanocomposites, soft interfaces, biomembranes and nanoplastics, where mesoscale organization and molecular specificity are both essential.

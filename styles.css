@@ -1,0 +1,12 @@
+.profile-photo {
+  float: right;
+  width: 250px;
+  margin-left: 2.5rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+
+body {
+  font-size: 17px;
+  line-height: 1.6;
+}

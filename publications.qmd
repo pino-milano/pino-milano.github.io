@@ -1,0 +1,94 @@
+---
+title: "Publications"
+---
+
+This page lists selected publications that illustrate the development of my research trajectory.
+
+## Covers and highlights
+
+:::: {.columns}
+
+::: {.column width="33%"}
+![](assets/figures/covers/cover_ai_fields.jpeg){width="100%"}
+**Journal cover**  
+Hybrid particle--field molecular simulations of complex soft matter.
+:::
+
+::: {.column width="33%"}
+![](assets/figures/covers/cover_nanoplastics.jpeg){width="100%"}
+**Journal cover**  
+Polymer interfaces, organization and molecular simulation.
+:::
+
+::: {.column width="33%"}
+![](assets/figures/covers/cover_brush.jpeg){width="100%"}
+**Journal cover**  
+Nanoplastics, membranes and biointerfaces.
+:::
+
+::: {.column width="33%"}
+![](assets/figures/covers/cover_jctc_carbonblack.jpeg){width="100%"}
+**Journal cover**  
+Nanoplastics, membranes and biointerfaces.
+:::
+
+::: {.column width="33%"}
+![](assets/figures/covers/cover_joule.gif){width="100%"}
+**Journal cover**  
+Nanoplastics, membranes and biointerfaces.
+:::
+
+::: {.column width="33%"}
+![](assets/figures/covers/cover_rikuo.jpg){width="100%"}
+**Journal cover**  
+Nanoplastics, membranes and biointerfaces.
+:::
+
+::: {.column width="33%"}
+![](assets/figures/covers/cover_pei_co2.jpeg){width="100%"}
+**Journal cover**  
+Nanoplastics, membranes and biointerfaces.
+:::
+
+::: {.column width="33%"}
+![](assets/figures/covers/cover_pei_metanolo.jpeg){width="100%"}
+**Journal cover**  
+Nanoplastics, membranes and biointerfaces.
+:::
+
+::: {.column width="33%"}
+![](assets/figures/covers/cover_carbonblack_macromolecules.jpeg){width="100%"}
+**Journal cover**  
+Nanoplastics, membranes and biointerfaces.
+:::
+
+
+
+::::
+
+## Selected publications
+
+### Hybrid particle--field molecular dynamics
+
+- Milano, G.; Kawakatsu, T. *Hybrid particle-field molecular dynamics simulations for dense polymer systems*. Journal, Year.
+- ...
+
+### Coarse-graining and reverse mapping
+
+- ...
+
+### Biomembranes and biological interfaces
+
+- ...
+
+### Nanocomposites, brushes and nanoplastics
+
+- ...
+
+### Software and scalable simulation
+
+- ...
+
+## Complete publication list
+
+A complete and updated publication list is available from ORCID, Google Scholar, Scopus and Web of Science.

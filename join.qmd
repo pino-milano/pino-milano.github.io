@@ -1,0 +1,62 @@
+---
+title: "Join"
+---
+
+I welcome motivated students and young researchers from materials engineering, chemistry, mathematical engineering, chemical engineering, physics, materials science,  computational science, biophysics and related areas who are interested in molecular simulation, soft matter, computational chemistry and scientific software development.
+
+My research line combines physical modelling, molecular simulation, coarse-grained approaches, hybrid particle--field molecular dynamics, OCCAM development and applications to polymers, biomembranes, bacterial lipid systems, nanocomposites, polymer brushes, microplastics and nanoplastics.
+
+## For undergraduate and master students
+
+Students at the University of Naples Federico II who are interested in thesis projects are welcome to contact me.
+
+Possible thesis topics include molecular simulation of soft-matter systems, coarse-grained modelling, biomembranes, bacterial lipid systems, polymer materials, nanocomposites, microplastics, nanoplastics, scientific visualization and the use or development of the OCCAM simulation platform.
+
+Students who would like to work in this area are encouraged to build a suitable background through elective courses in molecular simulation, computational chemistry, physical chemistry, materials modelling or related subjects.
+
+Curiosity, independence and willingness to learn are more important than already knowing everything at the beginning.
+
+## For prospective PhD students
+
+I am interested in hearing from motivated students, including international candidates, who would like to pursue doctoral research at the interface between molecular simulation, soft matter, computational chemistry and statistical mechanics.
+
+Possible PhD directions include:
+
+- hybrid particle--field molecular dynamics;
+- coarse-grained molecular modelling;
+- biomembranes and bacterial lipid systems;
+- polymer nanocomposites and soft interfaces;
+- microplastics, nanoplastics and biointerfaces;
+- density-field descriptions of complex molecular systems;
+- OCCAM development and high-performance molecular simulation.
+
+Students with a background in physics are particularly welcome when they are interested in statistical mechanics, soft matter, molecular simulation, field-based methods, numerical modelling or scientific computing. This research line offers a natural bridge between concepts from physics — such as collective variables, density fields, fluctuations, transport and mesoscale organization — and chemically specific molecular systems.
+
+Prospective candidates are encouraged to contact me with a short description of their background, research interests and previous experience in molecular simulation, programming, physical chemistry, soft matter, materials science or related areas.
+
+## For postdoctoral researchers
+
+I am also interested in discussing possible postdoctoral projects with researchers who have experience in molecular simulation, statistical mechanics, soft matter, computational chemistry, scientific programming or high-performance computing.
+
+Postdoctoral projects can involve method development, applications to complex soft matter and biological interfaces, or the development of scalable simulation workflows based on OCCAM.
+
+Candidates interested in applying for fellowships or external funding are welcome to contact me in advance to discuss possible project ideas.
+
+## Backgrounds
+
+Suitable backgrounds include chemistry, physics, engineering, computational science, biophysics or related areas.
+
+A background in physics can be especially useful for projects involving statistical mechanics, soft matter, density-field descriptions, molecular dynamics, numerical methods and high-performance computing.
+
+Experience with molecular dynamics, coarse-grained modelling, statistical mechanics, Python, Fortran, C/C++, GPU computing or data analysis can be useful, but it is not required for every project.
+
+## Contact
+
+If you are interested, please send me a short email including:
+
+- who you are and what you are currently studying or doing;
+- why you are interested in this research area;
+- any relevant experience with simulation, programming or soft matter;
+- your CV, if available.
+
+Email: giuseppe.milano@unina.it

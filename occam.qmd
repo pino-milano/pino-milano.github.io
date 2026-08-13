@@ -1,0 +1,63 @@
+---
+title: "OCCAM"
+---
+
+OCCAM is a molecular simulation platform developed for hybrid particle--field molecular dynamics of chemically complex soft-matter systems.
+
+[![occam website.](assets/figures/occam.jpg){width="85%" fig-alt="OCCAM"}](https://sites.google.com/view/occammd/home){target="_blank"}
+
+
+It is part of a broader effort to make density-field molecular simulations scalable, reproducible and useful for systems where molecular identity and mesoscale organization are both important.
+
+## Why OCCAM
+
+Many soft-matter systems are too large, heterogeneous or slowly evolving to be efficiently studied with conventional molecular dynamics alone.
+
+OCCAM was developed to address this class of problems by combining molecular particles with density fields. Molecular particles retain architecture, connectivity and chemical identity, while density fields describe collective interactions and spatial organization.
+
+## Scientific role
+
+For me, OCCAM is not only a computational tool. It is a platform where methodological ideas can be implemented, tested and applied to real chemical systems.
+
+It connects several parts of my work:
+
+- coarse-grained molecular simulation;
+- hybrid particle--field molecular dynamics;
+- polymers and soft materials;
+- biomembranes and interfaces;
+- nanocomposites and nanoplastics;
+- scalable scientific computing.
+
+## Current use
+
+OCCAM is used to study chemically specific soft-matter systems where collective organization plays a central role.
+
+Examples include polymer melts, surfactant assemblies, biomembranes, grafted polymers, brushes, polymer nanocomposites and micro/nanoplastics.
+
+## Development
+
+Recent development has focused on performance, scalability and the extension of the code toward more complex molecular models and workflows.
+
+
+In a very Italian sense, I sometimes think of OCCAM as a small “Fabbrica di San Pietro”: a living construction site rather than a finished object. It grows through additions, corrections, repairs and new ambitions, while preserving traces of the scientific questions that originally motivated it.
+
+[![permanent work in progress.](assets/figures/fabbrica.jpg){width="85%" fig-alt="Permanent work in progress"}](https://en.wikipedia.org/wiki/Fabric_of_Saint_Peter){target="_blank"}
+
+
+At the same time, a living construction site cannot remain permanently provisional. Every few years, together with different collaborators and students, we consolidate the code into an official version. These versions collect the implementations that have been tested, validated and used in scientific applications, providing stable reference points for further developments.
+
+## Publication-based code timeline
+
+2009 - Original hPF-MD implementation: Core hybrid particle-field molecular dynamics implementation and dense-polymer applications establish the methodological basis of the OCCAM code family.
+[Journal of Chemical Physics 2009](https://doi.org/10.1063/1.3142103){target="_blank"}
+
+
+2012 - Multi-node multi-CPU parallelization: MPI molecular decomposition and density-field reductions demonstrate that OCCAM can scale to large hPF-MD systems.
+[Journal of Computational Chemistry 2012](https://doi.org/10.1002/jcc.22883){target="_blank"}
+
+
+2021 - Optimized multi-CPU large-scale: Interface-aware, derivative, interpolation optimizations enable multi-million bead simulations
+[Journal of Chemical Theory and Computation 2021](https://doi.org/10.1021/acs.jctc.0c01095){target="_blank"}
+
+2025 - Multi-node multi-GPU OCCAM: GPU-resident implementation suitable for giant simulations up to 10 billion-particle scales.
+[Journal of Computational Chemistry 2025](https://doi.org/10.1002/jcc.70126){target="_blank"}

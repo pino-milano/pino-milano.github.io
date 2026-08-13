@@ -1,0 +1,28 @@
+project:
+  type: website
+
+website:
+  title: "Giuseppe Milano"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: scientific-path.qmd
+        text: Scientific Path
+      - href: research.qmd
+        text: Research
+      - href: occam.qmd
+        text: OCCAM
+      - href: publications.qmd
+        text: Publications
+      - href: join.qmd
+        text: Join
+      - href: contact.qmd
+        text: Contact
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    page-layout: full
+    css: styles.css
