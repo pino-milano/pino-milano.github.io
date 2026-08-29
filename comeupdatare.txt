@@ -1,0 +1,61 @@
+## Aggiornare il sito Quarto su GitHub
+
+Dopo aver modificato localmente i file `.qmd`:
+
+1. Aprire il terminale nella cartella del sito.
+
+2. Controllare le modifiche:
+
+```bash
+git status
+```
+
+3. Aggiungere i file modificati:
+
+```bash
+git add .
+```
+
+4. Creare il commit:
+
+```bash
+git commit -m "Update website"
+```
+
+5. Inviare le modifiche al branch `main` su GitHub:
+
+```bash
+git push
+```
+
+6. Pubblicare la nuova versione del sito su GitHub Pages:
+
+```bash
+quarto publish gh-pages
+```
+
+### In pratica
+
+La sequenza normale è:
+
+```bash
+git status
+git add .
+git commit -m "Update website"
+git push
+quarto publish gh-pages
+```
+
+Il branch `main` contiene i sorgenti del sito (`.qmd`, `_quarto.yml`, ecc.), mentre `gh-pages` contiene la versione HTML pubblicata online.
+
+### Se `git status` dice:
+
+```text
+nothing to commit, working tree clean
+```
+
+significa che le modifiche sono già state committate. Se il sito online è ancora vecchio, prova direttamente:
+
+```bash
+quarto publish gh-pages
+```
