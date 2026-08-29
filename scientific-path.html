@@ -172,8 +172,6 @@ window.Quarto = {
   </ul></li>
   <li><a href="#biological-and-soft-matter-complexity" id="toc-biological-and-soft-matter-complexity" class="nav-link" data-scroll-target="#biological-and-soft-matter-complexity">Biological and soft-matter complexity</a></li>
   <li><a href="#occam" id="toc-occam" class="nav-link" data-scroll-target="#occam">OCCAM</a></li>
-  <li><a href="#the-craft-of-simulation-code" id="toc-the-craft-of-simulation-code" class="nav-link" data-scroll-target="#the-craft-of-simulation-code">The craft of simulation code</a></li>
-  <li><a href="#a-continuing-direction" id="toc-a-continuing-direction" class="nav-link" data-scroll-target="#a-continuing-direction">A continuing direction</a></li>
   </ul>
 </nav>
     </div>
@@ -440,34 +438,6 @@ Q(\mathbf l),
 <p>OCCAM was not born only as an implementation of hybrid particle–field molecular dynamics. In its earliest form, before 2007, it was already a molecular dynamics code for chemically specific coarse-grained models, including models based on iterative Boltzmann inversion and analytical effective potentials.</p>
 <p>This origin is important for understanding its later role. OCCAM provided a working environment in which molecular models, effective potentials, algorithms and physical ideas could be modified directly. Having an independent code lowered the barrier to methodological innovation: new ideas could be implemented, tested and connected to applications without waiting for them to fit into an existing software architecture.</p>
 <p>The development of hybrid particle-field molecular dynamics followed precisely this route. The study of field-based statistical mechanics and self-consistent field ideas did not remain only a theoretical influence. Through OCCAM, these ideas became an operational molecular simulation method, in which particles retain molecular architecture while non-bonded interactions are described through density fields.</p>
-<p>In this sense, OCCAM was not simply the software that later hosted hPF-MD. It was one of the enabling conditions for its development. It provided the technical and conceptual continuity between coarse-grained molecular dynamics, field-theoretical ideas and chemically specific soft-matter applications.</p>
-<p>For me, software is not separate from scientific vision. It is the place where theoretical ideas become operational, where algorithms reveal their strengths and limitations, and where applications show what a method can and cannot do.</p>
-<p>This experience also shapes the way I think about training young researchers.</p>
-</section>
-<section id="the-craft-of-simulation-code" class="level2">
-<h2 class="anchored" data-anchor-id="the-craft-of-simulation-code">The craft of simulation code</h2>
-<p>However, those who want to develop new simulation methods should, sooner or later, experience the discipline of writing simulation code closer to the hardware and to the numerical structure of the algorithm, in languages such as Fortran, C or C++.</p>
-<p>Implementing a method forces one to understand it at a deeper level. It makes approximations explicit, exposes numerical assumptions, and shows where an elegant theoretical idea becomes fragile, robust or useful.</p>
-<p>For this reason, I see simulation code as part of scientific formation. It is not only an instrument for producing results, but a place where physical intuition, mathematical formulation, algorithmic thinking and chemical interpretation come together.</p>
-<p>OCCAM also reflects a broader view of scientific training.</p>
-<p>There is a craft dimension in this process. Perhaps one could say, with a smile, that writing a simulation code is closer to learning the way of the sword than to simply using a more powerful weapon. It is not about nostalgia for older tools, and certainly not about rejecting modern software. It is about discipline, control, attention to detail, and understanding the instrument through practice.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://en.wikipedia.org/wiki/The_Book_of_Five_Rings" target="_blank"><img src="assets/figures/sword.jpg" class="img-fluid figure-img" style="width:85.0%" alt="Early atomistic molecular dynamics works"></a></p>
-<figcaption>The way of the sword.</figcaption>
-</figure>
-</div>
-<p>Implementing a method forces one to understand it at a deeper level. It makes approximations explicit, exposes numerical assumptions, and shows where an elegant theoretical idea becomes fragile, robust or useful.</p>
-<p>For this reason, I see simulation code as part of scientific formation. It is not only an instrument for producing results, but a training ground where physical intuition, mathematical formulation, algorithmic thinking and chemical interpretation come together.</p>
-<p>In this sense, OCCAM is also a training environment: a place where young researchers can learn how molecular models, algorithms and scientific questions are connected.</p>
-</section>
-<section id="a-continuing-direction" class="level2">
-<h2 class="anchored" data-anchor-id="a-continuing-direction">A continuing direction</h2>
-<p>Looking back, the systems and methods have changed, but the underlying question has remained remarkably stable.</p>
-<p>How can molecular simulation describe complex systems across scales while preserving the chemical identity of matter?</p>
-<p>My path toward larger scales and more efficient methods has never been a path of replacement. I have not seen coarse-graining, field-based descriptions or hybrid particle-field molecular dynamics as ways to leave atomistic modelling behind, but as ways to carry forward what atomistic modelling teaches: molecular architecture, chemical specificity, physically grounded interactions and a disciplined connection between models and interpretation.</p>
-<p>In this sense, moving across scales does not mean abandoning the previous level of description. It means preserving what is essential from it, translating it when needed, and building methods that remain connected to molecular chemistry even when they operate at larger length and time scales.</p>
-<p>This attitude continues to guide my current work on coarse-grained and hybrid particle-field approaches, density-based descriptions, scalable simulation methods and applications to complex soft matter, materials and biological interfaces.</p>
 
 
 </section>
