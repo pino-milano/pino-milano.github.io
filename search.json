@@ -1,87 +1,311 @@
 [
   {
-    "objectID": "story.html",
-    "href": "story.html",
-    "title": "Story",
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
     "section": "",
-    "text": "My scientific work has developed around a recurring problem: how to describe molecular systems that are too large, heterogeneous and slowly evolving for conventional atomistic simulations, but too chemically specific to be treated as generic soft matter.\nThis problem has followed me through different systems and methods: polymers, coarse-grained models, reverse mapping, hybrid particle–field molecular dynamics, biomembranes, nanocomposites, polymer brushes, nanoplastics and software development."
+    "text": "Bachelor’s Degree in Materials Engineering\nThis course introduces the statistical-mechanical foundations needed to connect microscopic states and molecular interactions with the macroscopic properties of materials.\nThe aim is to provide students with a physical framework for understanding how collective properties emerge from microscopic behaviour and how statistical descriptions complement the thermodynamic description of matter.\n\n\n\nMaster’s Degree in Materials Engineering\nThis course introduces molecular simulation as a tool for investigating the structure and properties of materials.\nThe course covers the basic principles of molecular modelling and molecular dynamics, interaction models, statistical sampling and the analysis of simulation results, with particular attention to the relationship between molecular representation, simulation methodology and material properties.\n\n\n\nModule within “Numerical Modelling of Materials and Solid-State Physics” Master’s Degree in Mathematical Engineering\nThis module introduces numerical approaches to the modelling of materials, emphasizing the connection between physical models, mathematical formulation and computational implementation.\nThe course is addressed to students with a strong mathematical background and provides a perspective on how numerical methods can be used to describe material behaviour at different levels of resolution.\nFor official course information and institutional details, see my University faculty page."
   },
   {
-    "objectID": "story.html#from-molecular-detail-to-larger-scales",
-    "href": "story.html#from-molecular-detail-to-larger-scales",
-    "title": "Story",
-    "section": "From molecular detail to larger scales",
-    "text": "From molecular detail to larger scales\nMy early work was rooted in molecular simulation of polymeric and soft-matter materials. These systems are chemically rich, but their relevant behaviour often emerges at scales that are difficult to reach with atomistic molecular dynamics alone.\nThis led me to work on coarse-grained models and reverse-mapping strategies: ways of moving between molecular detail and simplified representations without losing the structural and chemical identity of the system."
+    "objectID": "teaching.html#statistical-mechanics",
+    "href": "teaching.html#statistical-mechanics",
+    "title": "Teaching",
+    "section": "",
+    "text": "Bachelor’s Degree in Materials Engineering\nThis course introduces the statistical-mechanical foundations needed to connect microscopic states and molecular interactions with the macroscopic properties of materials.\nThe aim is to provide students with a physical framework for understanding how collective properties emerge from microscopic behaviour and how statistical descriptions complement the thermodynamic description of matter."
   },
   {
-    "objectID": "story.html#particles-and-fields",
-    "href": "story.html#particles-and-fields",
-    "title": "Story",
+    "objectID": "teaching.html#molecular-simulation-of-materials",
+    "href": "teaching.html#molecular-simulation-of-materials",
+    "title": "Teaching",
+    "section": "",
+    "text": "Master’s Degree in Materials Engineering\nThis course introduces molecular simulation as a tool for investigating the structure and properties of materials.\nThe course covers the basic principles of molecular modelling and molecular dynamics, interaction models, statistical sampling and the analysis of simulation results, with particular attention to the relationship between molecular representation, simulation methodology and material properties."
+  },
+  {
+    "objectID": "teaching.html#numerical-modeling-of-materials",
+    "href": "teaching.html#numerical-modeling-of-materials",
+    "title": "Teaching",
+    "section": "",
+    "text": "Module within “Numerical Modelling of Materials and Solid-State Physics” Master’s Degree in Mathematical Engineering\nThis module introduces numerical approaches to the modelling of materials, emphasizing the connection between physical models, mathematical formulation and computational implementation.\nThe course is addressed to students with a strong mathematical background and provides a perspective on how numerical methods can be used to describe material behaviour at different levels of resolution.\nFor official course information and institutional details, see my University faculty page."
+  },
+  {
+    "objectID": "scientific-path.html",
+    "href": "scientific-path.html",
+    "title": "Scientific Path",
+    "section": "",
+    "text": "My scientific path began from a fascination with the theoretical foundations of molecular science.\nAs a student, I was especially attracted by quantum mechanics, statistical mechanics and theoretical spectroscopy. I was interested in how abstract physical descriptions of matter could become computational tools for understanding molecular structure, spectra and reactivity.\nThe works shown here belong to that early period — almost my scientific childhood. They include studies of proton transfer in excited states, calculations of infrared transition moments, and early applications of QM/MM methods to chemical reactivity.\nAlthough these topics may seem far from my current work on soft matter and particle-field simulations, they shaped an important part of my scientific attitude: the idea that simulation is a bridge between physical theory, numerical methods and chemical interpretation.\nEarly works on electronic-structure methods, theoretical spectroscopy and QM/MM reactivity. I was 24 when I started working on the first paper shown here, on proton transfer in excited states."
+  },
+  {
+    "objectID": "scientific-path.html#from-electronic-structure-to-molecular-simulation",
+    "href": "scientific-path.html#from-electronic-structure-to-molecular-simulation",
+    "title": "Scientific Path",
+    "section": "From electronic structure to molecular simulation",
+    "text": "From electronic structure to molecular simulation\nI continued to use quantum-mechanical calculations for some time, and I still regard them as essential whenever the problem requires an electronic-level description. However, as my focus moved toward polymeric materials, it became increasingly clear that electronic-structure methods alone could not answer many of the questions I was interested in.\nPolymeric materials require a different level of description. Their properties depend not only on local molecular structure or reactivity, but also on conformational organization, intermolecular packing, relaxation, dynamics, collective behaviour and thermodynamic averages.\nThis is where atomistic molecular simulation became central to my work.\nMolecular dynamics offered a natural extension of the statistical-mechanical ideas that had fascinated me as a student. Concepts that first appeared in idealized models of matter became operational tools for studying real molecular systems: ensembles, fluctuations, correlation functions, trajectories and averages.\n\n\n\nEarly atomistic molecular dynamics works.\n\n\nThis MD study grew out of a research period at the Max Planck Institute for Polymer Research in Mainz with Florian Müller-Plathe, an experience that was central in shaping my view of molecular simulation.\nPolymers were a particularly fertile setting for this transition. They have a clear molecular and chemical identity, but their behaviour is governed by long relaxation times, collective organization and mesoscale structure.\nThat experience also made clear the limitations of fully atomistic simulations for many soft-matter problems. Atomistic models are chemically detailed and physically transparent, but polymeric and soft-matter systems often require access to length and time scales that are difficult to reach at full molecular resolution."
+  },
+  {
+    "objectID": "scientific-path.html#coarse-graining-without-losing-chemistry",
+    "href": "scientific-path.html#coarse-graining-without-losing-chemistry",
+    "title": "Scientific Path",
+    "section": "Coarse-graining without losing chemistry",
+    "text": "Coarse-graining without losing chemistry\nThe limitations of fully atomistic simulations led me toward coarse-grained molecular models.\nFor me, coarse-graining was never only a way to make simulations faster. It was a way to ask a more subtle question: which molecular information must be preserved when the resolution of a model is reduced?\nThis became particularly clear in the case of vinyl polymers. These systems are chemically simple in their repeating architecture, but their properties depend strongly on stereochemical sequences along the chain. A chemically meaningful coarse-grained model should therefore retain this information rather than treating the polymer as a generic bead-spring chain.\nIn this context, I worked on systematic procedures to map atomistic simulations of vinyl polymers into mesoscopic models. The coarse-grained beads were chosen to correspond to stereochemical diads along the polymer chain.\nEach bead represented a meso or racemo diad, with the bead type assigned according to the local stereochemical relation between consecutive monomeric units. In this way, the coarse-grained chain was not a generic sequence of identical beads: it retained a chemically meaningful stereochemical code inherited from the atomistic model.\nThis was important because the stereochemical sequence of vinyl polymers affects chain conformations and material properties. By transferring this information to the coarse-grained representation, the model could remain simpler and faster while still preserving one of the essential chemical features of the original polymer.\n\n\n\nEarly coarse-graining works.\n\n\nCoarse-graining of vinyl polymer chains: atomistic information is mapped onto mesoscopic beads corresponding to meso and racemo diads, preserving stereochemical sequences.\nOne of the tools used in this phase was iterative Boltzmann inversion. The idea is to refine an effective interaction so that the coarse-grained model progressively reproduces a target structural distribution extracted from atomistic simulations:\n\\[\nU_{n+1}(r) =\nU_n(r) +\nk_\\mathrm{B}T\n\\ln\n\\frac{g_n(r)}{g_\\mathrm{target}(r)} .\n\\]\nHere, (g_n(r)) is the distribution generated by the current coarse-grained potential, while (g_(r)) is the corresponding distribution obtained from the atomistic reference model.\nThe same philosophy can be applied not only to non-bonded radial distribution functions, but also to the structural distributions that define the molecular architecture of the coarse-grained chain: bond lengths, bond angles and local conformational correlations.\nA related development was the introduction of multicentered Gaussian-based potentials for coarse-grained polymer simulations. In realistic polymer models, bond and angle distributions are often not simple single-peaked functions. They may contain several preferred regions, reflecting the underlying atomistic structure. A flexible but still analytical way to represent such distributions is to write them as sums of Gaussian functions:\n\\[\nP(\\theta) =\n\\sum_{i=1}^{n}\n\\frac{A_i}{w_i\\sqrt{\\pi/2}}\n\\exp\\left[\n-2\\frac{(\\theta-\\theta_{ci})^2}{w_i^2}\n\\right] .\n\\]\nThe corresponding effective potential can then be obtained by Boltzmann inversion:\n\\[\nU(\\theta) =\n- k_\\mathrm{B}T\n\\ln P(\\theta)\n+ C .\n\\]\nThis provided an analytical and interpretable alternative to fully tabulated bonded potentials, while retaining the flexibility needed to reproduce complex atomistic target distributions.\nAt the same time, I became interested in the inverse problem: how to reconstruct chemically realistic atomistic structures from coarse-grained configurations. Reverse mapping was not only a technical step. It was a way to keep simplified models connected to molecular chemistry.\nFor vinyl polymers, this problem is particularly delicate because the reconstruction must preserve local stereochemistry. The atomistic fragments must therefore be placed onto the coarse-grained geometry by proper rotations, avoiding reflections that would invert chirality.\nIn the reverse-mapping procedure, atomistic diads were selected from a library of conformations compatible with the local stereochemical sequence and with the coarse-grained geometry. The problem then became one of optimal superposition: how to rotate and translate each atomistic fragment so that it matched the corresponding coarse-grained sites and the previously inserted part of the chain.\nQuaternions offered a compact and robust way to solve this problem. They are elegant mathematical objects for describing rotations in three-dimensional space. In this context, quaternion-based maximization of the structural overlap provided the optimal rotation matrices in real space.\nThese rotation matrices were then used to place the selected atomistic fragments onto the coarse-grained chain, allowing the reconstruction to proceed analytically, fragment by fragment, while preserving stereochemistry. Because the procedure is geometrical and analytical, it avoids expensive potential-energy and force evaluations and makes the reconstruction of atomistic detail very fast.\nA unit quaternion,\n\\[\n\\mathbf q =\n(q_0,q_1,q_2,q_3),\n\\qquad\n\\|\\mathbf q\\|=1 ,\n\\]\nThe optimal quaternion is obtained from the symmetric eigenvalue problem\n\\[\n\\mathbf K \\mathbf q = \\lambda \\mathbf q ,\n\\]\nwhere the matrix (K) is built from the coordinate sums of the two structures to be superimposed. The eigenvector associated with the smallest eigenvalue gives the unit quaternion corresponding to the optimal rotation.\ndefines a rotation matrix (R(q)) that can be used to place an atomistic fragment onto the corresponding coarse-grained geometry. The quaternion corresponding to the optimal rigid rotation can be obtained by solving the eigenvalue problem\n\n\n\nEarly reverse-mapping works.\n\n\nReverse mapping: equilibrated coarse-grained configurations can be transformed back into chemically detailed atomistic structures by selecting compatible atomistic fragments and placing them through optimal real-space rotations.\nA later step showed the full potential of this approach. The diad-based coarse-grained model was combined with connectivity-altering Monte Carlo algorithms, allowing the equilibration of atactic polystyrene melts with molecular weights that would be extremely difficult to access directly at atomistic resolution.\nThis was a key multiscale result: stereochemical information was preserved at the coarse-grained level, long-chain conformations and entanglements could be equilibrated efficiently, and the resulting configurations could be reverse-mapped into detailed united-atom structures for comparison with atomistic and experimental observables.\n\n\n\nEarly reverse-mapping works.\n\n\nBeyond the specific techniques, algorithms and mathematical tools, this phase expressed a broader scientific attitude: molecular models can move forward and backward across resolutions. Atomistic chemistry can be mapped into simpler descriptions, larger scales can be reached, and atomistic detail can be recovered when needed.\nFor me, the central point was not only acceleration, but continuity: extending the scale of molecular simulation without giving up a chemically meaningful description of matter.\nThis attitude naturally prepared the next step in my work: the encounter with field-based descriptions of soft matter."
+  },
+  {
+    "objectID": "scientific-path.html#particles-and-fields",
+    "href": "scientific-path.html#particles-and-fields",
+    "title": "Scientific Path",
     "section": "Particles and fields",
-    "text": "Particles and fields\nA major step in this trajectory was the development and use of hybrid particle–field molecular dynamics. In this approach, molecular particles preserve architecture, connectivity and chemical identity, while density fields describe collective non-bonded interactions and mesoscale organization.\nThis particle–field viewpoint has shaped much of my work since then. It offers a way to extend molecular simulation toward larger and more complex systems, while keeping a direct connection to molecular chemistry."
+    "text": "Particles and fields\nThe question then became: can field-based descriptions be incorporated into molecular dynamics without abandoning particles altogether?\nThe idea of combining particles and fields has an important background in computational polymer physics. In particular, the single-chain-in-mean-field (SCMF) Monte Carlo approach developed by Marcus Müller and co-workers showed how coarse-grained polymer models could be represented through beads interacting with density fields.\nMy own contribution entered this landscape from a molecular-simulation and molecular dynamics perspective. Together with Toshihiro Kawakatsu, I developed the hybrid particle-field molecular dynamics approach, where chemically specific molecular models are propagated by molecular dynamics while their collective non-bonded interactions are described through self-consistent fields.\nThis distinction was important for me. The field representation provided the collective soft-matter description, while molecular dynamics preserved trajectories, molecular architecture, bonded interactions and chemical specificity.\nIn hPF-MD, molecular particles retain architecture, connectivity and chemical identity, while collective non-bonded interactions are described through density fields. This was the conceptual bridge I was looking for: particles carry molecular structure; fields describe mesoscale organization.\nA generic density field associated with a molecular species or bead type can be written as\n\\[\n\\rho_\\alpha(\\mathbf r) =\n\\sum_{i \\in \\alpha}\nw_i \\,\ng(\\mathbf r-\\mathbf r_i) ,\n\\]\nwhere \\(g(\\mathbf r-\\mathbf r_i)\\) is a smoothing or assignment function centred on particle \\(i\\), and \\(w_i\\) is a weight associated with that particle.\nThe non-bonded part of the model can then be expressed as a functional of the density fields,\n\\[\nU_\\mathrm{field}\n=\n\\int d\\mathbf r \\,\nf\\left(\\rho_1(\\mathbf r),\\rho_2(\\mathbf r),\\ldots\\right) .\n\\]\nFrom a statistical-mechanical point of view, this idea is related to field-theoretical transformations such as the Hubbard–Stratonovich transformation. These transformations make it possible to rewrite density–density interactions in terms of auxiliary fields coupled to molecular densities.\nIn the saddle-point approximation, the auxiliary field becomes a self-consistent external potential acting on the molecular particles. In the hybrid particle–field formulation, this operational idea is expressed by obtaining the external potential from the functional derivative of the non-bonded density functional:\n\\[\nV_\\alpha(\\mathbf r)\n=\n\\frac{\\delta U_\\mathrm{field}}\n{\\delta \\rho_\\alpha(\\mathbf r)} .\n\\]\nThe force on a particle of type () then follows from the spatial variation of this potential:\n\\[\n\\mathbf F_i\n\\simeq\n- w_i\n\\nabla V_\\alpha(\\mathbf r)\n\\bigg|_{\\mathbf r=\\mathbf r_i}.\n\\]\n\n\n\nEarly hPF-MD works.\n\n\nIn particle–field molecular dynamics, this field-based view becomes an operational simulation strategy: molecular particles evolve under fields generated by molecular densities.\n\nExtending particle–field simulations to charged systems\nA further important step was the extension of the hybrid particle–field framework to charged molecular systems.\n\n\n\nEarly hPF-MD works.\n\n\nIn the original particle–field formulation, non-bonded interactions were described through density fields associated with molecular components. This was highly effective for soft-matter systems dominated by short-range collective interactions, but charged macromolecules and polyelectrolytes required an explicit treatment of electrostatics within the same field-based philosophy.\nThe key idea was to describe electrostatic interactions not through direct pairwise Coulomb forces between all charged particles, but through electrostatic fields self-consistently determined by the charge density distribution.\nIn this formulation, the electrostatic potential is split into short- and long-range contributions,\n\\[\n\\psi(\\mathbf r)\n=\n\\psi^{S}(\\mathbf r)\n+\n\\psi^{L}(\\mathbf r).\n\\]\nThe long-range contribution follows the spirit of Ewald-type treatments. After assigning charge densities to a lattice, the long-range electrostatic potential can be obtained in reciprocal space from the Fourier transform of the charge distribution:\n\\[\n\\widehat{\\psi}^{L}(\\mathbf m)\n=\nC(\\mathbf m)\n\\sum_{j=1}^{N}\nq_j\n\\exp\\left(\ni\\mathbf m \\cdot \\mathbf r_j\n\\right),\n\\]\nwith\n\\[\nC(\\mathbf m)\n=\n\\frac{\n4\\pi k_\\mathrm{B}T l_\\mathrm{B}\n\\exp\\left(-m^2/4\\alpha^2\\right)\n}{\nV m^2\n}.\n\\]\nHere, \\(q_j\\) is the charge of particle \\(j\\), \\(l_\\mathrm{B}\\) is the Bjerrum length, \\(V\\) is the simulation box volume, and \\(\\alpha\\) controls the Ewald splitting.\nThe most original part of the construction concerns the short-range electrostatic contribution. In conventional molecular dynamics, this part would normally be treated as a pairwise interaction. In the particle–field framework, however, the interaction must be expressed in terms of fields. This was achieved by mapping the short-range electrostatic energy onto a Flory–Huggins-like mean-field parameter:\n\\[\nw_e\n=\nz_\\mathrm{CN}\nl_\\mathrm{B}\n\\frac{\\mathrm{erfc}(\\alpha\\sigma)}{\\sigma}.\n\\]\nHere, \\(z_\\mathrm{CN}\\) is a coordination number, \\(\\sigma\\) is the coarse-grained particle diameter, and \\(\\mathrm{erfc}(\\alpha\\sigma)/\\sigma\\) represents the short-range Ewald contribution at the coarse-grained contact distance.\nThe corresponding short-range electrostatic potential at a lattice point can then be written in density-field form as\n\\[\n\\psi^{S}(\\mathbf l)\n=\nk_\\mathrm{B}T \\,\nw_e \\,\nQ(\\mathbf l),\n\\]\nwhere \\(Q(\\mathbf l)\\) is the charge density assigned to the lattice point \\(\\mathbf l\\).\nThis step is conceptually important. It translates the short-range part of electrostatics into the same language used for composition fields in hybrid particle–field simulations: a local field proportional to a density. The long-range electrostatic contribution is handled through Fourier-space solution of the field, while the short-range contribution is absorbed into a local mean-field parameter.\nThe resulting electrostatic field acts back on the charged particles, allowing energies and forces to be obtained by interpolation from the lattice fields. In this way, charged particles retain their molecular identity and charge, while electrostatic organization is described through self-consistent fields.\nThis extension opened the possibility of applying hybrid particle–field molecular dynamics to polyelectrolytes, charged block copolymers, ionic systems and, more generally, soft-matter systems where electrostatics and mesoscale organization are coupled."
   },
   {
-    "objectID": "story.html#from-methods-to-chemical-soft-matter",
-    "href": "story.html#from-methods-to-chemical-soft-matter",
-    "title": "Story",
-    "section": "From methods to chemical soft matter",
-    "text": "From methods to chemical soft matter\nOver the years, I have applied and extended these ideas to a range of chemically complex soft-matter systems, including polymer melts, surfactants, biomembranes, polymer nanocomposites, carbon black–polymer interfaces, grafted polymers, brushes and micro/nanoplastics.\nThe common thread is not a single material class, but a methodological question: how can molecular simulation remain chemically meaningful when collective organization, interfaces and morphology become essential?"
+    "objectID": "scientific-path.html#biological-and-soft-matter-complexity",
+    "href": "scientific-path.html#biological-and-soft-matter-complexity",
+    "title": "Scientific Path",
+    "section": "Biological and soft-matter complexity",
+    "text": "Biological and soft-matter complexity\nAn important part of this trajectory has been the application of coarse-grained and hybrid particle–field models to biological and bio-inspired soft matter.\nMembranes are a particularly demanding test for molecular simulation. They are organized, heterogeneous and dynamic; at the same time, their behaviour depends on molecular architecture, lipid composition, headgroup chemistry, tail structure, electrostatics, hydration and interactions with surrounding molecules or particles.\n\n\n\nbiomolecular works.\n\n\nThis is especially true for bacterial membrane models and lipid systems inspired by the outer membrane of Gram-negative bacteria, where chemical specificity and collective organization are tightly coupled. These systems helped me to test how far coarse-grained and particle–field approaches could be pushed while retaining a meaningful connection to molecular detail.\n\n\n\nbiomolecular works.\n\n\nFor me, such applications were not a departure from the methodological path. They were a way to test it in systems where complexity is not only large-scale, but also chemical and biological."
   },
   {
-    "objectID": "story.html#occam",
-    "href": "story.html#occam",
-    "title": "Story",
+    "objectID": "scientific-path.html#occam",
+    "href": "scientific-path.html#occam",
+    "title": "Scientific Path",
     "section": "OCCAM",
-    "text": "OCCAM\nThe development of OCCAM is part of this same trajectory. OCCAM is a hybrid particle–field molecular dynamics platform designed to make chemically specific density-field simulations scalable and usable for large soft-matter systems.\nFor me, software is not separate from scientific vision. It is the place where ideas about models, approximations, algorithms and applications become testable."
+    "text": "OCCAM\nThe development of OCCAM is part of the same path.\nOCCAM was not born only as an implementation of hybrid particle–field molecular dynamics. In its earliest form, before 2007, it was already a molecular dynamics code for chemically specific coarse-grained models, including models based on iterative Boltzmann inversion and analytical effective potentials.\nThis origin is important for understanding its later role. OCCAM provided a working environment in which molecular models, effective potentials, algorithms and physical ideas could be modified directly. Having an independent code lowered the barrier to methodological innovation: new ideas could be implemented, tested and connected to applications without waiting for them to fit into an existing software architecture.\nThe development of hybrid particle-field molecular dynamics followed precisely this route. The study of field-based statistical mechanics and self-consistent field ideas did not remain only a theoretical influence. Through OCCAM, these ideas became an operational molecular simulation method, in which particles retain molecular architecture while non-bonded interactions are described through density fields."
   },
   {
-    "objectID": "story.html#where-this-leads",
-    "href": "story.html#where-this-leads",
-    "title": "Story",
-    "section": "Where this leads",
-    "text": "Where this leads\nMy current work continues this path. I am interested in density-based descriptions that remain connected to molecular chemistry and can help describe structure, organization and behaviour in complex soft matter.\nThe broader goal is to build molecular simulation approaches that are physically grounded, chemically meaningful and useful for systems where molecular detail and mesoscale organization cannot be separated."
-  },
-  {
-    "objectID": "research.html#polymers-and-soft-matter",
-    "href": "research.html#polymers-and-soft-matter",
-    "title": "Themes in my work",
-    "section": "Polymers and Soft Matter",
-    "text": "Polymers and Soft Matter"
-  },
-  {
-    "objectID": "research.html#biological-and-environmental-interfaces",
-    "href": "research.html#biological-and-environmental-interfaces",
-    "title": "Themes in my work",
-    "section": "Biological and Environmental Interfaces",
-    "text": "Biological and Environmental Interfaces"
-  },
-  {
-    "objectID": "research.html#computational-methods",
-    "href": "research.html#computational-methods",
-    "title": "Themes in my work",
-    "section": "Computational Methods",
-    "text": "Computational Methods"
-  },
-  {
-    "objectID": "programme.html",
-    "href": "programme.html",
-    "title": "Current Programme",
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
     "section": "",
-    "text": "My current programme aims to develop a new generation of density-field molecular simulation methods for chemically specific soft matter.\nThe central idea is that density fields should not be treated only as computational devices. They should become physically interpretable and chemically meaningful variables."
+    "text": "The papers below provide a compact entry point into some of the methods I have developed or helped to develop, from systematic coarse-graining and reverse mapping to hybrid particle–field molecular dynamics and its extensions. The broader scientific path connecting these works is described here."
   },
   {
-    "objectID": "programme.html#chemically-meaningful-density-fields",
-    "href": "programme.html#chemically-meaningful-density-fields",
-    "title": "Current Programme",
+    "objectID": "publications.html#a-selection-of-methodological-papers",
+    "href": "publications.html#a-selection-of-methodological-papers",
+    "title": "Publications",
     "section": "",
-    "text": "My current programme aims to develop a new generation of density-field molecular simulation methods for chemically specific soft matter.\nThe central idea is that density fields should not be treated only as computational devices. They should become physically interpretable and chemically meaningful variables."
+    "text": "The papers below provide a compact entry point into some of the methods I have developed or helped to develop, from systematic coarse-graining and reverse mapping to hybrid particle–field molecular dynamics and its extensions. The broader scientific path connecting these works is described here."
   },
   {
-    "objectID": "programme.html#main-directions",
-    "href": "programme.html#main-directions",
-    "title": "Current Programme",
-    "section": "Main directions",
-    "text": "Main directions\n\nFluctuation-aware field formulations\nTraditional hybrid particle–field molecular dynamics relies on mean-field approximations. A major goal is to develop formulations that retain the computational advantages of density fields while improving the treatment of fluctuations.\n\n\nPhysically grounded field functionals\nA second direction is to connect field-based interactions with liquid-state theory, equations of state and classical density functional concepts.\n\n\nField-based free-energy and morphology sampling\nMany soft-matter systems are governed by changes in morphology: aggregation, adsorption, insertion, phase separation, interfacial restructuring and self-assembly. Density fields provide natural collective variables for describing these processes.\n\n\nApplications\nTarget systems include polymer melts, nanocomposites, soft interfaces, biomembranes and nanoplastics, where mesoscale organization and molecular specificity are both essential."
+    "objectID": "publications.html#hybrid-particle-field-molecular-dynamics",
+    "href": "publications.html#hybrid-particle-field-molecular-dynamics",
+    "title": "Publications",
+    "section": "Hybrid particle-field molecular dynamics",
+    "text": "Hybrid particle-field molecular dynamics\nG. Milano; T. Kawakatsu, “Hybrid Particle-Field Molecular Dynamics Simulations for Dense Polymer Systems”, J. Chem. Phys. 2009, 130, 214106. DOI\nThis is where hPF-MD began. Together with Toshihiro Kawakatsu, I developed hybrid particle-field MD a framework that preserves molecular architecture and chemical identity while replacing explicit non-bonded pair interactions with forces calculated by density fields. We subsequently completed its thermodynamic formulation for NPT hybrid simulations by deriving the pressure tensor in G. Milano; T. Kawakatsu, “Pressure Calculation in Hybrid Particle-Field Simulations”, J. Chem. Phys. 2010, 133, 214102. DOI\nA. De Nicola; Y. Zhao; T. Kawakatsu; D. Roccatano; G. Milano, “Hybrid Particle-Field Coarse-Grained Models for Biological Phospholipids”, J. Chem. Theory Comput. 2011, 7, 2947–2962. DOI\nThis work brought hPF-MD into the world of biological membranes. It showed that field-mediated simulations could retain amphiphilicity, molecular architecture and chemical identity of several biological phospholipids.\nY.-L. Zhu; Z.-Y. Lu; G. Milano; A.-C. Shi; Z.-Y. Sun, “Hybrid Particle–Field Molecular Dynamics Simulation for Polyelectrolyte Systems”, Phys. Chem. Chem. Phys. 2016, 18, 9799–9808. DOI The next challenge was electrostatics. In this work, we extended hPF-MD to charged systems by letting charged particles interact through electrostatic fields determined self-consistently from the charge-density distribution. The method combined a reciprocal-space treatment of long-range electrostatics with a local field representation of the short-range contribution.\nA. De Nicola; T. Kawakatsu; G. Milano, “Generation of Well-Relaxed All-Atom Models of Large Molecular Weight Polymer Melts: A Hybrid Particle–Continuum Approach Based on Particle-Field Molecular Dynamics Simulations”, J. Chem. Theory Comput. 2014, 10, 5651–5667. DOI Here we used particle–field molecular dynamics in a different way: to accelerate the equilibration of fully atomistic polymer melts. The complete all-atom model was retained, while soft field-mediated interactions allowed slow collective relaxation to proceed much more efficiently. The resulting structures could then be returned directly to conventional atomistic simulations, without coarse-graining, parametrization or reverse mapping.\nG. Munaò; A. Pizzirusso; A. Kalogirou; A. De Nicola; T. Kawakatsu; F. Müller-Plathe; G. Milano, “Molecular Structure and Multi-Body Potential of Mean Force in Silica–Polystyrene Nanocomposites”, Nanoscale 2018, 10, 21656–21670. DOI This work introduced two methodological developments in hPF-MD: a field-based representation of the nanoparticle inner core and our first implementation of thermodynamic integration within the particle–field framework. The results showed that effective interactions between mesoscale objects cannot always be reduced to transferable pair potentials: many-body contributions can play a decisive role in nanoparticle organization and help explain experimentally observed morphologies.\nThese five papers provide a compact view of some early steps in this field, from the original hPF-MD formulation to biological membranes, all-atom polymer relaxation, electrostatics and free-energy calculations. They are not an endpoint: each opened directions that continue to develop in more recent work."
+  },
+  {
+    "objectID": "publications.html#coarse-graining-and-backmapping",
+    "href": "publications.html#coarse-graining-and-backmapping",
+    "title": "Publications",
+    "section": "Coarse-Graining and Backmapping",
+    "text": "Coarse-Graining and Backmapping\nSelected publications on Iterative Boltzmann Inversion, Gaussian effective potentials, and backmapping.\n\nMulticentered Gaussian-Based Potentials for Coarse-Grained Polymer Simulations: Linking Atomistic and Mesoscopic Scales\nG. Milano, S. Goudeau, and F. Müller-Plathe\nJournal of Polymer Science Part B: Polymer Physics 43, 871–885 (2005)\nGaussian potentials\nDOI\nMapping Atomistic Simulations to Mesoscopic Models: A Systematic Coarse-Graining Procedure for Vinyl Polymer Chains\nG. Milano and F. Müller-Plathe\nThe Journal of Physical Chemistry B 109, 18609–18619 (2005)\nIBI Systematic coarse-graining\nDOI\nFrom Mesoscale Back to Atomistic Models: A Fast Reverse-Mapping Procedure for Vinyl Polymer Chains\nG. Santangelo, A. Di Matteo, F. Müller-Plathe, and G. Milano\nThe Journal of Physical Chemistry B 111, 2765–2773 (2007)\nBackmapping\nDOI"
+  },
+  {
+    "objectID": "publications.html#covers",
+    "href": "publications.html#covers",
+    "title": "Publications",
+    "section": "Covers",
+    "text": "Covers"
+  },
+  {
+    "objectID": "publications.html#complete-publication-list",
+    "href": "publications.html#complete-publication-list",
+    "title": "Publications",
+    "section": "Complete publication list",
+    "text": "Complete publication list\nA complete and updated publication list is available from ORCID,Google Scholar profile."
+  },
+  {
+    "objectID": "polymers-soft-matter.html",
+    "href": "polymers-soft-matter.html",
+    "title": "Polymers and Soft Matter",
+    "section": "",
+    "text": "Polymer dynamics, entanglement, complex molecular architectures and collective organization.\nPolymers have been the main testing ground for my way of connecting molecular detail to collective behaviour. Their chemistry is encoded locally, but their observable properties emerge from conformations, packing, entanglements, interfaces and relaxation over much larger scales."
+  },
+  {
+    "objectID": "polymers-soft-matter.html#from-molecular-structure-to-collective-behaviour",
+    "href": "polymers-soft-matter.html#from-molecular-structure-to-collective-behaviour",
+    "title": "Polymers and Soft Matter",
+    "section": "From molecular structure to collective behaviour",
+    "text": "From molecular structure to collective behaviour\nMy early atomistic simulations examined how molecular architecture and local interactions determine structure, dynamics and transport in polymeric materials. They also made the limitations of full atomistic resolution very clear: long chains and slowly relaxing soft matter rapidly move beyond directly accessible scales.\n\n\n\nEarly atomistic molecular dynamics work on polymers."
+  },
+  {
+    "objectID": "polymers-soft-matter.html#long-chain-melts-and-entanglements",
+    "href": "polymers-soft-matter.html#long-chain-melts-and-entanglements",
+    "title": "Polymers and Soft Matter",
+    "section": "Long-chain melts and entanglements",
+    "text": "Long-chain melts and entanglements\nChemically informed coarse-grained models, connectivity-altering Monte Carlo moves and reverse mapping made it possible to equilibrate long-chain atactic polystyrene melts while retaining stereochemical information. The resulting structures connect efficient mesoscale equilibration with detailed united-atom descriptions and experimentally relevant observables, including chain conformation and entanglements.\n\n\n\nCoarse-grained and reverse-mapped long-chain polymer melts."
+  },
+  {
+    "objectID": "polymers-soft-matter.html#soft-matter-organization",
+    "href": "polymers-soft-matter.html#soft-matter-organization",
+    "title": "Polymers and Soft Matter",
+    "section": "Soft-matter organization",
+    "text": "Soft-matter organization\nThe same multiscale perspective extends from polymer melts to surfactant self-assembly, polymer brushes, grafted materials and nanocomposites. Across these systems, I am interested in how molecular architecture and specific interactions produce mesoscale organization, interfacial structure and slow collective dynamics.\n\n\n\nPolymer brushes and soft interfaces.\n\n\nThis is also where methodological questions become physical ones: how much chemical detail is needed, which collective variables govern the behaviour, and how can simulations reach the scales on which those variables evolve?\nSelected publications"
+  },
+  {
+    "objectID": "multiscale-methods.html",
+    "href": "multiscale-methods.html",
+    "title": "Multiscale Simulation Methods",
+    "section": "",
+    "text": "Multiscale modelling is not only a way to reduce computational cost. It is a question of representation: which molecular degrees of freedom can be eliminated, which collective variables must be retained, and which physical properties should remain invariant across levels of resolution?"
+  },
+  {
+    "objectID": "multiscale-methods.html#coarse-graining-without-losing-chemistry",
+    "href": "multiscale-methods.html#coarse-graining-without-losing-chemistry",
+    "title": "Multiscale Simulation Methods",
+    "section": "Coarse-graining without losing chemistry",
+    "text": "Coarse-graining without losing chemistry\nFor me, coarse-graining is not only a way to make simulations faster. It asks which molecular information must be preserved when the resolution of a model is reduced.\nIn vinyl polymers, I developed systematic procedures that map atomistic simulations onto mesoscopic models while retaining stereochemical sequences. Coarse-grained beads represent meso or racemo diads, so the reduced model carries a chemically meaningful code inherited from the atomistic structure.\n\n\n\nCoarse-graining of vinyl polymer chains."
+  },
+  {
+    "objectID": "multiscale-methods.html#effective-potentials-and-iterative-boltzmann-inversion",
+    "href": "multiscale-methods.html#effective-potentials-and-iterative-boltzmann-inversion",
+    "title": "Multiscale Simulation Methods",
+    "section": "Effective potentials and Iterative Boltzmann Inversion",
+    "text": "Effective potentials and Iterative Boltzmann Inversion\nI used Iterative Boltzmann Inversion to refine effective interactions until a coarse-grained model reproduced structural distributions obtained from atomistic simulations. The same strategy was applied to non-bonded radial distribution functions and to the bond and angle distributions that encode molecular architecture.\nA related development was the introduction of multicentered Gaussian-based potentials. Sums of Gaussian functions provided an analytical and interpretable alternative to fully tabulated bonded potentials, while retaining the flexibility required to reproduce complex, multipeaked atomistic distributions."
+  },
+  {
+    "objectID": "multiscale-methods.html#backmapping",
+    "href": "multiscale-methods.html#backmapping",
+    "title": "Multiscale Simulation Methods",
+    "section": "Backmapping",
+    "text": "Backmapping\nThe inverse problem is equally important: reconstructing chemically realistic atomistic structures from coarse-grained configurations. For vinyl polymers, the procedure must preserve local stereochemistry while placing atomistic fragments onto the coarse-grained geometry.\nI developed a fast geometrical procedure based on libraries of stereochemically compatible fragments and quaternion-derived optimal rotations. This makes it possible to move from equilibrated coarse-grained configurations back to chemically detailed atomistic models without expensive force evaluations.\n\n\n\nReverse mapping of coarse-grained polymer models."
+  },
+  {
+    "objectID": "multiscale-methods.html#particles-and-fields",
+    "href": "multiscale-methods.html#particles-and-fields",
+    "title": "Multiscale Simulation Methods",
+    "section": "Particles and fields",
+    "text": "Particles and fields\nCombination of particles and fields living in the same model provide an appealing route to coarse-graining because an explicit molecular description is retained while representing collective interactions through continuous fields. More generally, they offer a framework for exploring how molecular detail and collective behaviour can be connected across different levels of resolution, and how different representations of matter can be combined within molecular simulation.\nTogether with Toshihiro Kawakatsu, I developed hybrid particle–field molecular dynamics. Molecular particles retain architecture, connectivity and chemical identity, while collective non-bonded interactions are described through density fields.\nThis provides a bridge between molecular simulation and field-based descriptions of soft matter: particles carry molecular structure; fields describe mesoscale organization. The framework was later extended to charged systems by treating electrostatic organization through self-consistent fields.\n\n\n\nHybrid particle-field molecular dynamics."
+  },
+  {
+    "objectID": "multiscale-methods.html#from-methods-to-scientific-software",
+    "href": "multiscale-methods.html#from-methods-to-scientific-software",
+    "title": "Multiscale Simulation Methods",
+    "section": "From methods to scientific software",
+    "text": "From methods to scientific software\nThese developments are implemented in OCCAM, a molecular simulation code that originated with chemically specific coarse-grained models and later became the platform for hybrid particle–field molecular dynamics. Developing an independent code has allowed effective potentials, algorithms and physical ideas to be tested together and scaled to massively parallel, multi-GPU simulations.\nSelected publications"
+  },
+  {
+    "objectID": "interfaces-nanomaterials.html",
+    "href": "interfaces-nanomaterials.html",
+    "title": "Interfaces and Nanomaterials",
+    "section": "",
+    "text": "Structure, thermodynamics and molecular organization at complex interfaces.\nInterfaces are where molecular specificity and collective organization meet most directly. My work examines how polymers and complex molecular fluids organize near nanoparticles, solid surfaces and grafted materials, and how this interfacial structure influences macroscopic behaviour."
+  },
+  {
+    "objectID": "interfaces-nanomaterials.html#polymernanoparticle-interfaces",
+    "href": "interfaces-nanomaterials.html#polymernanoparticle-interfaces",
+    "title": "Interfaces and Nanomaterials",
+    "section": "Polymer–nanoparticle interfaces",
+    "text": "Polymer–nanoparticle interfaces\nNanocomposites pose a characteristic multiscale problem: the local chemistry of a surface controls adsorption and packing, while the response of polymer chains extends far into the surrounding material. Coarse-grained and hybrid particle–field models make it possible to study these extended interphases without reducing the polymer to a chemically anonymous medium.\n\n\n\nPolymer organization around carbon black."
+  },
+  {
+    "objectID": "interfaces-nanomaterials.html#grafted-and-structured-surfaces",
+    "href": "interfaces-nanomaterials.html#grafted-and-structured-surfaces",
+    "title": "Interfaces and Nanomaterials",
+    "section": "Grafted and structured surfaces",
+    "text": "Grafted and structured surfaces\nPolymer brushes and grafted nanoparticles provide controlled systems in which chain architecture, grafting density, solvent conditions and surface curvature compete. They allow simulations to connect molecular design with steric stabilization, interfacial response and the organization of surrounding molecules.\n\n\n\nMolecular simulation of grafted polymer materials."
+  },
+  {
+    "objectID": "interfaces-nanomaterials.html#complex-material-interfaces",
+    "href": "interfaces-nanomaterials.html#complex-material-interfaces",
+    "title": "Interfaces and Nanomaterials",
+    "section": "Complex material interfaces",
+    "text": "Complex material interfaces\nI use these systems not only as applications, but also as demanding tests of simulation methodology. Heterogeneous interfaces require models that can retain distinct chemical components while following collective rearrangements over large domains and long times.\n\n\n\nMolecular modelling of carbon-black interfaces.\n\n\nSelected publications"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Department of Chemical, Materials and Production Engineering\nUniversity of Naples Federico II\nNaples, Italy\nEmail: giuseppe.milano@unina.it"
+  },
+  {
+    "objectID": "contact.html#giuseppe-milano",
+    "href": "contact.html#giuseppe-milano",
+    "title": "Contact",
+    "section": "",
+    "text": "Department of Chemical, Materials and Production Engineering\nUniversity of Naples Federico II\nNaples, Italy\nEmail: giuseppe.milano@unina.it"
+  },
+  {
+    "objectID": "contact.html#profiles",
+    "href": "contact.html#profiles",
+    "title": "Contact",
+    "section": "Profiles",
+    "text": "Profiles\n\nUniversity profile: coming soon\nORCID: coming soon\nGoogle Scholar: coming soon\nGitHub: coming soon"
+  },
+  {
+    "objectID": "biological-environmental-systems.html",
+    "href": "biological-environmental-systems.html",
+    "title": "Biological and Environmental Systems",
+    "section": "",
+    "text": "Biological and environmental systems test whether multiscale models can retain meaningful chemical specificity while addressing strongly heterogeneous, dynamic and compositionally complex matter."
+  },
+  {
+    "objectID": "biological-environmental-systems.html#biomembranes",
+    "href": "biological-environmental-systems.html#biomembranes",
+    "title": "Biological and Environmental Systems",
+    "section": "Biomembranes",
+    "text": "Biomembranes\nMembranes are organized, heterogeneous and dynamic. Their behaviour depends on molecular architecture, lipid composition, headgroup chemistry, tail structure, electrostatics, hydration and interactions with surrounding molecules or particles.\n\n\n\nCoarse-grained molecular model of a lipid membrane.\n\n\nBacterial membranes, particularly models inspired by the outer membrane of Gram-negative bacteria, are especially demanding because chemical specificity and collective organization are tightly coupled. They provide a stringent setting for testing how far coarse-grained and particle–field models can be pushed while remaining connected to molecular detail.\n\n\n\nComplex bacterial lipid membrane."
+  },
+  {
+    "objectID": "biological-environmental-systems.html#nanoplastics-and-biointerfaces",
+    "href": "biological-environmental-systems.html#nanoplastics-and-biointerfaces",
+    "title": "Biological and Environmental Systems",
+    "section": "Nanoplastics and biointerfaces",
+    "text": "Nanoplastics and biointerfaces\nMy environmental work follows plastic nanoparticles from their material structure to their interactions with water, ions and biological matter. The aim is to understand how polymer composition, surface chemistry, morphology and ageing influence aggregation, interfacial organization and membrane interactions.\n\n\n\nMolecular simulation of nanoplastics and their interfaces.\n\n\nThese applications are not separate from the methodological work. They ask the same fundamental question under particularly demanding conditions: how does collective behaviour emerge from molecular identity in systems that span many coupled scales?\nSelected publications"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Giuseppe Milano",
+    "section": "",
+    "text": "I work at the border between two ways of understanding matter: the chemist’s attention to molecular identity and the physicist’s search for mathematical and computational descriptions.\nI want to understand how molecular interactions give rise to collective behaviour, and how this connection can be represented across different levels of resolution. Multiscale molecular simulation provides a way to connect different scales, following the emergence of collective behaviour without losing chemical specificity.\nAcross polymers, biomembranes, surfactants, nanocomposites, and nanoplastics, the underlying goal remains the same: connecting molecular detail with collective organization without sacrificing either. A central and continuing focus of my work is hybrid particle–field molecular dynamics (hPF‑MD). For more than fifteen years, I have continued to advance this approach and its implementation in OCCAM, a massively parallel molecular simulation code that combines chemically specific molecular models with field-based descriptions of non-bonded interactions, enabling simulations of large and complex systems without losing molecular architecture and identity."
+  },
+  {
+    "objectID": "index.html#themes-in-my-work",
+    "href": "index.html#themes-in-my-work",
+    "title": "Giuseppe Milano",
+    "section": "Themes in my work",
+    "text": "Themes in my work\n\n\n\n\nMolecular Simulation and Statistical Mechanics\nCoarse-graining, particle–field models, and high-performance molecular simulation.\n\n\n\n\n\nPolymers and Soft Matter\nPolymer dynamics, complex molecular architectures, and collective organization.\n\n\n\n\n\nInterfaces and Nanomaterials\nMolecular organization at polymer, nanoparticle, and material interfaces.\n\n\n\n\n\nBiological and Environmental Systems\nBiomembranes, complex biointerfaces, and the molecular behaviour of nanoplastics."
+  },
+  {
+    "objectID": "join.html",
+    "href": "join.html",
+    "title": "Join",
+    "section": "",
+    "text": "I welcome motivated students and young researchers from materials engineering, chemistry, mathematical engineering, chemical engineering, physics, materials science, computational science, biophysics and related areas who are interested in molecular simulation, soft matter, computational chemistry and scientific software development.\nMy research line combines physical modelling, molecular simulation, coarse-grained approaches, hybrid particle–field molecular dynamics, OCCAM development and applications to polymers, biomembranes, bacterial lipid systems, nanocomposites, polymer brushes, microplastics and nanoplastics."
+  },
+  {
+    "objectID": "join.html#for-undergraduate-and-master-students",
+    "href": "join.html#for-undergraduate-and-master-students",
+    "title": "Join",
+    "section": "For undergraduate and master students",
+    "text": "For undergraduate and master students\nStudents at the University of Naples Federico II who are interested in thesis projects are welcome to contact me.\nPossible thesis topics include molecular simulation of soft-matter systems, coarse-grained modelling, biomembranes, bacterial lipid systems, polymer materials, nanocomposites, microplastics, nanoplastics, scientific visualization and the use or development of the OCCAM simulation platform.\nStudents who would like to work in this area are encouraged to build a suitable background through elective courses in molecular simulation, computational chemistry, physical chemistry, materials modelling or related subjects.\nCuriosity, independence and willingness to learn are more important than already knowing everything at the beginning."
+  },
+  {
+    "objectID": "join.html#for-prospective-phd-students",
+    "href": "join.html#for-prospective-phd-students",
+    "title": "Join",
+    "section": "For prospective PhD students",
+    "text": "For prospective PhD students\nI am interested in hearing from motivated students, including international candidates, who would like to pursue doctoral research at the interface between molecular simulation, soft matter, computational chemistry and statistical mechanics.\nPossible PhD directions include:\n\nhybrid particle–field molecular dynamics;\ncoarse-grained molecular modelling;\nbiomembranes and bacterial lipid systems;\npolymer nanocomposites and soft interfaces;\nmicroplastics, nanoplastics and biointerfaces;\ndensity-field descriptions of complex molecular systems;\nOCCAM development and high-performance molecular simulation.\n\nStudents with a background in physics are particularly welcome when they are interested in statistical mechanics, soft matter, molecular simulation, field-based methods, numerical modelling or scientific computing. This research line offers a natural bridge between concepts from physics — such as collective variables, density fields, fluctuations, transport and mesoscale organization — and chemically specific molecular systems.\nProspective candidates are encouraged to contact me with a short description of their background, research interests and previous experience in molecular simulation, programming, physical chemistry, soft matter, materials science or related areas."
+  },
+  {
+    "objectID": "join.html#for-postdoctoral-researchers",
+    "href": "join.html#for-postdoctoral-researchers",
+    "title": "Join",
+    "section": "For postdoctoral researchers",
+    "text": "For postdoctoral researchers\nI am also interested in discussing possible postdoctoral projects with researchers who have experience in molecular simulation, statistical mechanics, soft matter, computational chemistry, scientific programming or high-performance computing.\nPostdoctoral projects can involve method development, applications to complex soft matter and biological interfaces, or the development of scalable simulation workflows based on OCCAM.\nCandidates interested in applying for fellowships or external funding are welcome to contact me in advance to discuss possible project ideas."
+  },
+  {
+    "objectID": "join.html#backgrounds",
+    "href": "join.html#backgrounds",
+    "title": "Join",
+    "section": "Backgrounds",
+    "text": "Backgrounds\nSuitable backgrounds include chemistry, physics, engineering, computational science, biophysics or related areas.\nA background in physics can be especially useful for projects involving statistical mechanics, soft matter, density-field descriptions, molecular dynamics, numerical methods and high-performance computing.\nExperience with molecular dynamics, coarse-grained modelling, statistical mechanics, Python, Fortran, C/C++, GPU computing or data analysis can be useful, but it is not required for every project."
+  },
+  {
+    "objectID": "join.html#contact",
+    "href": "join.html#contact",
+    "title": "Join",
+    "section": "Contact",
+    "text": "Contact\nIf you are interested, please send me a short email including:\n\nwho you are and what you are currently studying or doing;\nwhy you are interested in this research area;\nany relevant experience with simulation, programming or soft matter;\nyour CV, if available.\n\nEmail: giuseppe.milano@unina.it"
   },
   {
     "objectID": "occam.html",
@@ -140,283 +364,87 @@
     "text": "Publication-based code timeline\n2009 - Original hPF-MD implementation: Core hybrid particle-field molecular dynamics implementation and dense-polymer applications establish the methodological basis of the OCCAM code family. Journal of Chemical Physics 2009\n2012 - Multi-node multi-CPU parallelization: MPI molecular decomposition and density-field reductions demonstrate that OCCAM can scale to large hPF-MD systems. Journal of Computational Chemistry 2012\n2021 - Optimized multi-CPU large-scale: Interface-aware, derivative, interpolation optimizations enable multi-million bead simulations Journal of Chemical Theory and Computation 2021\n2025 - Multi-node multi-GPU OCCAM: GPU-resident implementation suitable for giant simulations up to 10 billion-particle scales. Journal of Computational Chemistry 2025"
   },
   {
-    "objectID": "join.html",
-    "href": "join.html",
-    "title": "Join",
+    "objectID": "programme.html",
+    "href": "programme.html",
+    "title": "Current Programme",
     "section": "",
-    "text": "I welcome motivated students and young researchers from materials engineering, chemistry, mathematical engineering, chemical engineering, physics, materials science, computational science, biophysics and related areas who are interested in molecular simulation, soft matter, computational chemistry and scientific software development.\nMy research line combines physical modelling, molecular simulation, coarse-grained approaches, hybrid particle–field molecular dynamics, OCCAM development and applications to polymers, biomembranes, bacterial lipid systems, nanocomposites, polymer brushes, microplastics and nanoplastics."
+    "text": "My current programme aims to develop a new generation of density-field molecular simulation methods for chemically specific soft matter.\nThe central idea is that density fields should not be treated only as computational devices. They should become physically interpretable and chemically meaningful variables."
   },
   {
-    "objectID": "join.html#for-undergraduate-and-master-students",
-    "href": "join.html#for-undergraduate-and-master-students",
-    "title": "Join",
-    "section": "For undergraduate and master students",
-    "text": "For undergraduate and master students\nStudents at the University of Naples Federico II who are interested in thesis projects are welcome to contact me.\nPossible thesis topics include molecular simulation of soft-matter systems, coarse-grained modelling, biomembranes, bacterial lipid systems, polymer materials, nanocomposites, microplastics, nanoplastics, scientific visualization and the use or development of the OCCAM simulation platform.\nStudents who would like to work in this area are encouraged to build a suitable background through elective courses in molecular simulation, computational chemistry, physical chemistry, materials modelling or related subjects.\nCuriosity, independence and willingness to learn are more important than already knowing everything at the beginning."
-  },
-  {
-    "objectID": "join.html#for-prospective-phd-students",
-    "href": "join.html#for-prospective-phd-students",
-    "title": "Join",
-    "section": "For prospective PhD students",
-    "text": "For prospective PhD students\nI am interested in hearing from motivated students, including international candidates, who would like to pursue doctoral research at the interface between molecular simulation, soft matter, computational chemistry and statistical mechanics.\nPossible PhD directions include:\n\nhybrid particle–field molecular dynamics;\ncoarse-grained molecular modelling;\nbiomembranes and bacterial lipid systems;\npolymer nanocomposites and soft interfaces;\nmicroplastics, nanoplastics and biointerfaces;\ndensity-field descriptions of complex molecular systems;\nOCCAM development and high-performance molecular simulation.\n\nStudents with a background in physics are particularly welcome when they are interested in statistical mechanics, soft matter, molecular simulation, field-based methods, numerical modelling or scientific computing. This research line offers a natural bridge between concepts from physics — such as collective variables, density fields, fluctuations, transport and mesoscale organization — and chemically specific molecular systems.\nProspective candidates are encouraged to contact me with a short description of their background, research interests and previous experience in molecular simulation, programming, physical chemistry, soft matter, materials science or related areas."
-  },
-  {
-    "objectID": "join.html#for-postdoctoral-researchers",
-    "href": "join.html#for-postdoctoral-researchers",
-    "title": "Join",
-    "section": "For postdoctoral researchers",
-    "text": "For postdoctoral researchers\nI am also interested in discussing possible postdoctoral projects with researchers who have experience in molecular simulation, statistical mechanics, soft matter, computational chemistry, scientific programming or high-performance computing.\nPostdoctoral projects can involve method development, applications to complex soft matter and biological interfaces, or the development of scalable simulation workflows based on OCCAM.\nCandidates interested in applying for fellowships or external funding are welcome to contact me in advance to discuss possible project ideas."
-  },
-  {
-    "objectID": "join.html#backgrounds",
-    "href": "join.html#backgrounds",
-    "title": "Join",
-    "section": "Backgrounds",
-    "text": "Backgrounds\nSuitable backgrounds include chemistry, physics, engineering, computational science, biophysics or related areas.\nA background in physics can be especially useful for projects involving statistical mechanics, soft matter, density-field descriptions, molecular dynamics, numerical methods and high-performance computing.\nExperience with molecular dynamics, coarse-grained modelling, statistical mechanics, Python, Fortran, C/C++, GPU computing or data analysis can be useful, but it is not required for every project."
-  },
-  {
-    "objectID": "join.html#contact",
-    "href": "join.html#contact",
-    "title": "Join",
-    "section": "Contact",
-    "text": "Contact\nIf you are interested, please send me a short email including:\n\nwho you are and what you are currently studying or doing;\nwhy you are interested in this research area;\nany relevant experience with simulation, programming or soft matter;\nyour CV, if available.\n\nEmail: giuseppe.milano@unina.it"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Giuseppe Milano",
+    "objectID": "programme.html#chemically-meaningful-density-fields",
+    "href": "programme.html#chemically-meaningful-density-fields",
+    "title": "Current Programme",
     "section": "",
-    "text": "I work at the border between two ways of understanding matter: the chemist’s attention to molecular identity and the physicist’s search for mathematical and computational descriptions.\nI want to understand how molecular interactions give rise to collective behaviour, and how this connection can be represented across different levels of resolution. Multiscale molecular simulation provides a way to connect different scales, following the emergence of collective behaviour without losing chemical specificity.\nAcross polymers, biomembranes, surfactants, nanocomposites, and nanoplastics, the underlying goal remains the same: connecting molecular detail with collective organization without sacrificing either. A central and continuing focus of my work is hybrid particle–field molecular dynamics (hPF‑MD). For more than fifteen years, I have continued to advance this approach and its implementation in OCCAM, a massively parallel molecular simulation code that combines chemically specific molecular models with field-based descriptions of non-bonded interactions, enabling simulations of large and complex systems without losing molecular architecture and identity."
+    "text": "My current programme aims to develop a new generation of density-field molecular simulation methods for chemically specific soft matter.\nThe central idea is that density fields should not be treated only as computational devices. They should become physically interpretable and chemically meaningful variables."
   },
   {
-    "objectID": "index.html#themes-in-my-work",
-    "href": "index.html#themes-in-my-work",
-    "title": "Giuseppe Milano",
-    "section": "Themes in my work",
-    "text": "Themes in my work\n\n\n\n\nMolecular Simulation and Statistical Mechanics\nCoarse-graining, particle–field models, and high-performance molecular simulation.\n\n\n\n\n\nPolymers and Soft Matter\nPolymer dynamics, complex molecular architectures, and collective organization.\n\n\n\n\n\nInterfaces and Nanomaterials\nMolecular organization at polymer, nanoparticle, and material interfaces.\n\n\n\n\n\nBiological and Environmental Systems\nBiomembranes, complex biointerfaces, and the molecular behaviour of nanoplastics."
+    "objectID": "programme.html#main-directions",
+    "href": "programme.html#main-directions",
+    "title": "Current Programme",
+    "section": "Main directions",
+    "text": "Main directions\n\nFluctuation-aware field formulations\nTraditional hybrid particle–field molecular dynamics relies on mean-field approximations. A major goal is to develop formulations that retain the computational advantages of density fields while improving the treatment of fluctuations.\n\n\nPhysically grounded field functionals\nA second direction is to connect field-based interactions with liquid-state theory, equations of state and classical density functional concepts.\n\n\nField-based free-energy and morphology sampling\nMany soft-matter systems are governed by changes in morphology: aggregation, adsorption, insertion, phase separation, interfacial restructuring and self-assembly. Density fields provide natural collective variables for describing these processes.\n\n\nApplications\nTarget systems include polymer melts, nanocomposites, soft interfaces, biomembranes and nanoplastics, where mesoscale organization and molecular specificity are both essential."
   },
   {
-    "objectID": "biological-environmental-systems.html",
-    "href": "biological-environmental-systems.html",
-    "title": "Biological and Environmental Systems",
+    "objectID": "research.html#polymers-and-soft-matter",
+    "href": "research.html#polymers-and-soft-matter",
+    "title": "Themes in my work",
+    "section": "Polymers and Soft Matter",
+    "text": "Polymers and Soft Matter"
+  },
+  {
+    "objectID": "research.html#biological-and-environmental-interfaces",
+    "href": "research.html#biological-and-environmental-interfaces",
+    "title": "Themes in my work",
+    "section": "Biological and Environmental Interfaces",
+    "text": "Biological and Environmental Interfaces"
+  },
+  {
+    "objectID": "research.html#computational-methods",
+    "href": "research.html#computational-methods",
+    "title": "Themes in my work",
+    "section": "Computational Methods",
+    "text": "Computational Methods"
+  },
+  {
+    "objectID": "story.html",
+    "href": "story.html",
+    "title": "Story",
     "section": "",
-    "text": "Biological and environmental systems test whether multiscale models can retain meaningful chemical specificity while addressing strongly heterogeneous, dynamic and compositionally complex matter."
+    "text": "My scientific work has developed around a recurring problem: how to describe molecular systems that are too large, heterogeneous and slowly evolving for conventional atomistic simulations, but too chemically specific to be treated as generic soft matter.\nThis problem has followed me through different systems and methods: polymers, coarse-grained models, reverse mapping, hybrid particle–field molecular dynamics, biomembranes, nanocomposites, polymer brushes, nanoplastics and software development."
   },
   {
-    "objectID": "biological-environmental-systems.html#biomembranes",
-    "href": "biological-environmental-systems.html#biomembranes",
-    "title": "Biological and Environmental Systems",
-    "section": "Biomembranes",
-    "text": "Biomembranes\nMembranes are organized, heterogeneous and dynamic. Their behaviour depends on molecular architecture, lipid composition, headgroup chemistry, tail structure, electrostatics, hydration and interactions with surrounding molecules or particles.\n\n\n\nCoarse-grained molecular model of a lipid membrane.\n\n\nBacterial membranes, particularly models inspired by the outer membrane of Gram-negative bacteria, are especially demanding because chemical specificity and collective organization are tightly coupled. They provide a stringent setting for testing how far coarse-grained and particle–field models can be pushed while remaining connected to molecular detail.\n\n\n\nComplex bacterial lipid membrane."
+    "objectID": "story.html#from-molecular-detail-to-larger-scales",
+    "href": "story.html#from-molecular-detail-to-larger-scales",
+    "title": "Story",
+    "section": "From molecular detail to larger scales",
+    "text": "From molecular detail to larger scales\nMy early work was rooted in molecular simulation of polymeric and soft-matter materials. These systems are chemically rich, but their relevant behaviour often emerges at scales that are difficult to reach with atomistic molecular dynamics alone.\nThis led me to work on coarse-grained models and reverse-mapping strategies: ways of moving between molecular detail and simplified representations without losing the structural and chemical identity of the system."
   },
   {
-    "objectID": "biological-environmental-systems.html#nanoplastics-and-biointerfaces",
-    "href": "biological-environmental-systems.html#nanoplastics-and-biointerfaces",
-    "title": "Biological and Environmental Systems",
-    "section": "Nanoplastics and biointerfaces",
-    "text": "Nanoplastics and biointerfaces\nMy environmental work follows plastic nanoparticles from their material structure to their interactions with water, ions and biological matter. The aim is to understand how polymer composition, surface chemistry, morphology and ageing influence aggregation, interfacial organization and membrane interactions.\n\n\n\nMolecular simulation of nanoplastics and their interfaces.\n\n\nThese applications are not separate from the methodological work. They ask the same fundamental question under particularly demanding conditions: how does collective behaviour emerge from molecular identity in systems that span many coupled scales?\nSelected publications"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "Department of Chemical, Materials and Production Engineering\nUniversity of Naples Federico II\nNaples, Italy\nEmail: giuseppe.milano@unina.it"
-  },
-  {
-    "objectID": "contact.html#giuseppe-milano",
-    "href": "contact.html#giuseppe-milano",
-    "title": "Contact",
-    "section": "",
-    "text": "Department of Chemical, Materials and Production Engineering\nUniversity of Naples Federico II\nNaples, Italy\nEmail: giuseppe.milano@unina.it"
-  },
-  {
-    "objectID": "contact.html#profiles",
-    "href": "contact.html#profiles",
-    "title": "Contact",
-    "section": "Profiles",
-    "text": "Profiles\n\nUniversity profile: coming soon\nORCID: coming soon\nGoogle Scholar: coming soon\nGitHub: coming soon"
-  },
-  {
-    "objectID": "interfaces-nanomaterials.html",
-    "href": "interfaces-nanomaterials.html",
-    "title": "Interfaces and Nanomaterials",
-    "section": "",
-    "text": "Structure, thermodynamics and molecular organization at complex interfaces.\nInterfaces are where molecular specificity and collective organization meet most directly. My work examines how polymers and complex molecular fluids organize near nanoparticles, solid surfaces and grafted materials, and how this interfacial structure influences macroscopic behaviour."
-  },
-  {
-    "objectID": "interfaces-nanomaterials.html#polymernanoparticle-interfaces",
-    "href": "interfaces-nanomaterials.html#polymernanoparticle-interfaces",
-    "title": "Interfaces and Nanomaterials",
-    "section": "Polymer–nanoparticle interfaces",
-    "text": "Polymer–nanoparticle interfaces\nNanocomposites pose a characteristic multiscale problem: the local chemistry of a surface controls adsorption and packing, while the response of polymer chains extends far into the surrounding material. Coarse-grained and hybrid particle–field models make it possible to study these extended interphases without reducing the polymer to a chemically anonymous medium.\n\n\n\nPolymer organization around carbon black."
-  },
-  {
-    "objectID": "interfaces-nanomaterials.html#grafted-and-structured-surfaces",
-    "href": "interfaces-nanomaterials.html#grafted-and-structured-surfaces",
-    "title": "Interfaces and Nanomaterials",
-    "section": "Grafted and structured surfaces",
-    "text": "Grafted and structured surfaces\nPolymer brushes and grafted nanoparticles provide controlled systems in which chain architecture, grafting density, solvent conditions and surface curvature compete. They allow simulations to connect molecular design with steric stabilization, interfacial response and the organization of surrounding molecules.\n\n\n\nMolecular simulation of grafted polymer materials."
-  },
-  {
-    "objectID": "interfaces-nanomaterials.html#complex-material-interfaces",
-    "href": "interfaces-nanomaterials.html#complex-material-interfaces",
-    "title": "Interfaces and Nanomaterials",
-    "section": "Complex material interfaces",
-    "text": "Complex material interfaces\nI use these systems not only as applications, but also as demanding tests of simulation methodology. Heterogeneous interfaces require models that can retain distinct chemical components while following collective rearrangements over large domains and long times.\n\n\n\nMolecular modelling of carbon-black interfaces.\n\n\nSelected publications"
-  },
-  {
-    "objectID": "multiscale-methods.html",
-    "href": "multiscale-methods.html",
-    "title": "Multiscale Simulation Methods",
-    "section": "",
-    "text": "Multiscale modelling is not only a way to reduce computational cost. It is a question of representation: which molecular degrees of freedom can be eliminated, which collective variables must be retained, and which physical properties should remain invariant across levels of resolution?"
-  },
-  {
-    "objectID": "multiscale-methods.html#coarse-graining-without-losing-chemistry",
-    "href": "multiscale-methods.html#coarse-graining-without-losing-chemistry",
-    "title": "Multiscale Simulation Methods",
-    "section": "Coarse-graining without losing chemistry",
-    "text": "Coarse-graining without losing chemistry\nFor me, coarse-graining is not only a way to make simulations faster. It asks which molecular information must be preserved when the resolution of a model is reduced.\nIn vinyl polymers, I developed systematic procedures that map atomistic simulations onto mesoscopic models while retaining stereochemical sequences. Coarse-grained beads represent meso or racemo diads, so the reduced model carries a chemically meaningful code inherited from the atomistic structure.\n\n\n\nCoarse-graining of vinyl polymer chains."
-  },
-  {
-    "objectID": "multiscale-methods.html#effective-potentials-and-iterative-boltzmann-inversion",
-    "href": "multiscale-methods.html#effective-potentials-and-iterative-boltzmann-inversion",
-    "title": "Multiscale Simulation Methods",
-    "section": "Effective potentials and Iterative Boltzmann Inversion",
-    "text": "Effective potentials and Iterative Boltzmann Inversion\nI used Iterative Boltzmann Inversion to refine effective interactions until a coarse-grained model reproduced structural distributions obtained from atomistic simulations. The same strategy was applied to non-bonded radial distribution functions and to the bond and angle distributions that encode molecular architecture.\nA related development was the introduction of multicentered Gaussian-based potentials. Sums of Gaussian functions provided an analytical and interpretable alternative to fully tabulated bonded potentials, while retaining the flexibility required to reproduce complex, multipeaked atomistic distributions."
-  },
-  {
-    "objectID": "multiscale-methods.html#backmapping",
-    "href": "multiscale-methods.html#backmapping",
-    "title": "Multiscale Simulation Methods",
-    "section": "Backmapping",
-    "text": "Backmapping\nThe inverse problem is equally important: reconstructing chemically realistic atomistic structures from coarse-grained configurations. For vinyl polymers, the procedure must preserve local stereochemistry while placing atomistic fragments onto the coarse-grained geometry.\nI developed a fast geometrical procedure based on libraries of stereochemically compatible fragments and quaternion-derived optimal rotations. This makes it possible to move from equilibrated coarse-grained configurations back to chemically detailed atomistic models without expensive force evaluations.\n\n\n\nReverse mapping of coarse-grained polymer models."
-  },
-  {
-    "objectID": "multiscale-methods.html#particles-and-fields",
-    "href": "multiscale-methods.html#particles-and-fields",
-    "title": "Multiscale Simulation Methods",
+    "objectID": "story.html#particles-and-fields",
+    "href": "story.html#particles-and-fields",
+    "title": "Story",
     "section": "Particles and fields",
-    "text": "Particles and fields\nCombination of particles and fields living in the same model provide an appealing route to coarse-graining because an explicit molecular description is retained while representing collective interactions through continuous fields. More generally, they offer a framework for exploring how molecular detail and collective behaviour can be connected across different levels of resolution, and how different representations of matter can be combined within molecular simulation.\nTogether with Toshihiro Kawakatsu, I developed hybrid particle–field molecular dynamics. Molecular particles retain architecture, connectivity and chemical identity, while collective non-bonded interactions are described through density fields.\nThis provides a bridge between molecular simulation and field-based descriptions of soft matter: particles carry molecular structure; fields describe mesoscale organization. The framework was later extended to charged systems by treating electrostatic organization through self-consistent fields.\n\n\n\nHybrid particle-field molecular dynamics."
+    "text": "Particles and fields\nA major step in this trajectory was the development and use of hybrid particle–field molecular dynamics. In this approach, molecular particles preserve architecture, connectivity and chemical identity, while density fields describe collective non-bonded interactions and mesoscale organization.\nThis particle–field viewpoint has shaped much of my work since then. It offers a way to extend molecular simulation toward larger and more complex systems, while keeping a direct connection to molecular chemistry."
   },
   {
-    "objectID": "multiscale-methods.html#from-methods-to-scientific-software",
-    "href": "multiscale-methods.html#from-methods-to-scientific-software",
-    "title": "Multiscale Simulation Methods",
-    "section": "From methods to scientific software",
-    "text": "From methods to scientific software\nThese developments are implemented in OCCAM, a molecular simulation code that originated with chemically specific coarse-grained models and later became the platform for hybrid particle–field molecular dynamics. Developing an independent code has allowed effective potentials, algorithms and physical ideas to be tested together and scaled to massively parallel, multi-GPU simulations.\nSelected publications"
+    "objectID": "story.html#from-methods-to-chemical-soft-matter",
+    "href": "story.html#from-methods-to-chemical-soft-matter",
+    "title": "Story",
+    "section": "From methods to chemical soft matter",
+    "text": "From methods to chemical soft matter\nOver the years, I have applied and extended these ideas to a range of chemically complex soft-matter systems, including polymer melts, surfactants, biomembranes, polymer nanocomposites, carbon black–polymer interfaces, grafted polymers, brushes and micro/nanoplastics.\nThe common thread is not a single material class, but a methodological question: how can molecular simulation remain chemically meaningful when collective organization, interfaces and morphology become essential?"
   },
   {
-    "objectID": "polymers-soft-matter.html",
-    "href": "polymers-soft-matter.html",
-    "title": "Polymers and Soft Matter",
-    "section": "",
-    "text": "Polymer dynamics, entanglement, complex molecular architectures and collective organization.\nPolymers have been the main testing ground for my way of connecting molecular detail to collective behaviour. Their chemistry is encoded locally, but their observable properties emerge from conformations, packing, entanglements, interfaces and relaxation over much larger scales."
-  },
-  {
-    "objectID": "polymers-soft-matter.html#from-molecular-structure-to-collective-behaviour",
-    "href": "polymers-soft-matter.html#from-molecular-structure-to-collective-behaviour",
-    "title": "Polymers and Soft Matter",
-    "section": "From molecular structure to collective behaviour",
-    "text": "From molecular structure to collective behaviour\nMy early atomistic simulations examined how molecular architecture and local interactions determine structure, dynamics and transport in polymeric materials. They also made the limitations of full atomistic resolution very clear: long chains and slowly relaxing soft matter rapidly move beyond directly accessible scales.\n\n\n\nEarly atomistic molecular dynamics work on polymers."
-  },
-  {
-    "objectID": "polymers-soft-matter.html#long-chain-melts-and-entanglements",
-    "href": "polymers-soft-matter.html#long-chain-melts-and-entanglements",
-    "title": "Polymers and Soft Matter",
-    "section": "Long-chain melts and entanglements",
-    "text": "Long-chain melts and entanglements\nChemically informed coarse-grained models, connectivity-altering Monte Carlo moves and reverse mapping made it possible to equilibrate long-chain atactic polystyrene melts while retaining stereochemical information. The resulting structures connect efficient mesoscale equilibration with detailed united-atom descriptions and experimentally relevant observables, including chain conformation and entanglements.\n\n\n\nCoarse-grained and reverse-mapped long-chain polymer melts."
-  },
-  {
-    "objectID": "polymers-soft-matter.html#soft-matter-organization",
-    "href": "polymers-soft-matter.html#soft-matter-organization",
-    "title": "Polymers and Soft Matter",
-    "section": "Soft-matter organization",
-    "text": "Soft-matter organization\nThe same multiscale perspective extends from polymer melts to surfactant self-assembly, polymer brushes, grafted materials and nanocomposites. Across these systems, I am interested in how molecular architecture and specific interactions produce mesoscale organization, interfacial structure and slow collective dynamics.\n\n\n\nPolymer brushes and soft interfaces.\n\n\nThis is also where methodological questions become physical ones: how much chemical detail is needed, which collective variables govern the behaviour, and how can simulations reach the scales on which those variables evolve?\nSelected publications"
-  },
-  {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
-    "section": "",
-    "text": "The papers below provide a compact entry point into some of the methods I have developed or helped to develop, from systematic coarse-graining and reverse mapping to hybrid particle–field molecular dynamics and its extensions. The broader scientific path connecting these works is described here."
-  },
-  {
-    "objectID": "publications.html#a-selection-of-methodological-papers",
-    "href": "publications.html#a-selection-of-methodological-papers",
-    "title": "Publications",
-    "section": "",
-    "text": "The papers below provide a compact entry point into some of the methods I have developed or helped to develop, from systematic coarse-graining and reverse mapping to hybrid particle–field molecular dynamics and its extensions. The broader scientific path connecting these works is described here."
-  },
-  {
-    "objectID": "publications.html#hybrid-particle-field-molecular-dynamics",
-    "href": "publications.html#hybrid-particle-field-molecular-dynamics",
-    "title": "Publications",
-    "section": "Hybrid particle-field molecular dynamics",
-    "text": "Hybrid particle-field molecular dynamics\nG. Milano; T. Kawakatsu, “Hybrid Particle-Field Molecular Dynamics Simulations for Dense Polymer Systems”, J. Chem. Phys. 2009, 130, 214106. DOI\nThis is where hPF-MD began. Together with Toshihiro Kawakatsu, I developed hybrid particle-field MD a framework that preserves molecular architecture and chemical identity while replacing explicit non-bonded pair interactions with forces calculated by density fields. We subsequently completed its thermodynamic formulation for NPT hybrid simulations by deriving the pressure tensor in G. Milano; T. Kawakatsu, “Pressure Calculation in Hybrid Particle-Field Simulations”, J. Chem. Phys. 2010, 133, 214102. DOI\nA. De Nicola; Y. Zhao; T. Kawakatsu; D. Roccatano; G. Milano, “Hybrid Particle-Field Coarse-Grained Models for Biological Phospholipids”, J. Chem. Theory Comput. 2011, 7, 2947–2962. DOI\nThis work brought hPF-MD into the world of biological membranes. It showed that field-mediated simulations could retain amphiphilicity, molecular architecture and chemical identity of several biological phospholipids.\nY.-L. Zhu; Z.-Y. Lu; G. Milano; A.-C. Shi; Z.-Y. Sun, “Hybrid Particle–Field Molecular Dynamics Simulation for Polyelectrolyte Systems”, Phys. Chem. Chem. Phys. 2016, 18, 9799–9808. DOI The next challenge was electrostatics. In this work, we extended hPF-MD to charged systems by letting charged particles interact through electrostatic fields determined self-consistently from the charge-density distribution. The method combined a reciprocal-space treatment of long-range electrostatics with a local field representation of the short-range contribution.\nA. De Nicola; T. Kawakatsu; G. Milano, “Generation of Well-Relaxed All-Atom Models of Large Molecular Weight Polymer Melts: A Hybrid Particle–Continuum Approach Based on Particle-Field Molecular Dynamics Simulations”, J. Chem. Theory Comput. 2014, 10, 5651–5667. DOI Here we used particle–field molecular dynamics in a different way: to accelerate the equilibration of fully atomistic polymer melts. The complete all-atom model was retained, while soft field-mediated interactions allowed slow collective relaxation to proceed much more efficiently. The resulting structures could then be returned directly to conventional atomistic simulations, without coarse-graining, parametrization or reverse mapping.\nG. Munaò; A. Pizzirusso; A. Kalogirou; A. De Nicola; T. Kawakatsu; F. Müller-Plathe; G. Milano, “Molecular Structure and Multi-Body Potential of Mean Force in Silica–Polystyrene Nanocomposites”, Nanoscale 2018, 10, 21656–21670. DOI This work introduced two methodological developments in hPF-MD: a field-based representation of the nanoparticle inner core and our first implementation of thermodynamic integration within the particle–field framework. The results showed that effective interactions between mesoscale objects cannot always be reduced to transferable pair potentials: many-body contributions can play a decisive role in nanoparticle organization and help explain experimentally observed morphologies.\nThese five papers provide a compact view of some early steps in this field, from the original hPF-MD formulation to biological membranes, all-atom polymer relaxation, electrostatics and free-energy calculations. They are not an endpoint: each opened directions that continue to develop in more recent work."
-  },
-  {
-    "objectID": "publications.html#coarse-graining-and-backmapping",
-    "href": "publications.html#coarse-graining-and-backmapping",
-    "title": "Publications",
-    "section": "Coarse-Graining and Backmapping",
-    "text": "Coarse-Graining and Backmapping\nSelected publications on Iterative Boltzmann Inversion, Gaussian effective potentials, and backmapping.\n\nMulticentered Gaussian-Based Potentials for Coarse-Grained Polymer Simulations: Linking Atomistic and Mesoscopic Scales\nG. Milano, S. Goudeau, and F. Müller-Plathe\nJournal of Polymer Science Part B: Polymer Physics 43, 871–885 (2005)\nGaussian potentials\nDOI\nMapping Atomistic Simulations to Mesoscopic Models: A Systematic Coarse-Graining Procedure for Vinyl Polymer Chains\nG. Milano and F. Müller-Plathe\nThe Journal of Physical Chemistry B 109, 18609–18619 (2005)\nIBI Systematic coarse-graining\nDOI\nFrom Mesoscale Back to Atomistic Models: A Fast Reverse-Mapping Procedure for Vinyl Polymer Chains\nG. Santangelo, A. Di Matteo, F. Müller-Plathe, and G. Milano\nThe Journal of Physical Chemistry B 111, 2765–2773 (2007)\nBackmapping\nDOI"
-  },
-  {
-    "objectID": "publications.html#covers",
-    "href": "publications.html#covers",
-    "title": "Publications",
-    "section": "Covers",
-    "text": "Covers"
-  },
-  {
-    "objectID": "publications.html#complete-publication-list",
-    "href": "publications.html#complete-publication-list",
-    "title": "Publications",
-    "section": "Complete publication list",
-    "text": "Complete publication list\nA complete and updated publication list is available from ORCID, Google Scholar, Scopus and Web of Science."
-  },
-  {
-    "objectID": "scientific-path.html",
-    "href": "scientific-path.html",
-    "title": "Scientific Path",
-    "section": "",
-    "text": "My scientific path began from a fascination with the theoretical foundations of molecular science.\nAs a student, I was especially attracted by quantum mechanics, statistical mechanics and theoretical spectroscopy. I was interested in how abstract physical descriptions of matter could become computational tools for understanding molecular structure, spectra and reactivity.\nThe works shown here belong to that early period — almost my scientific childhood. They include studies of proton transfer in excited states, calculations of infrared transition moments, and early applications of QM/MM methods to chemical reactivity.\nAlthough these topics may seem far from my current work on soft matter and particle-field simulations, they shaped an important part of my scientific attitude: the idea that simulation is a bridge between physical theory, numerical methods and chemical interpretation.\nEarly works on electronic-structure methods, theoretical spectroscopy and QM/MM reactivity. I was 24 when I started working on the first paper shown here, on proton transfer in excited states."
-  },
-  {
-    "objectID": "scientific-path.html#from-electronic-structure-to-molecular-simulation",
-    "href": "scientific-path.html#from-electronic-structure-to-molecular-simulation",
-    "title": "Scientific Path",
-    "section": "From electronic structure to molecular simulation",
-    "text": "From electronic structure to molecular simulation\nI continued to use quantum-mechanical calculations for some time, and I still regard them as essential whenever the problem requires an electronic-level description. However, as my focus moved toward polymeric materials, it became increasingly clear that electronic-structure methods alone could not answer many of the questions I was interested in.\nPolymeric materials require a different level of description. Their properties depend not only on local molecular structure or reactivity, but also on conformational organization, intermolecular packing, relaxation, dynamics, collective behaviour and thermodynamic averages.\nThis is where atomistic molecular simulation became central to my work.\nMolecular dynamics offered a natural extension of the statistical-mechanical ideas that had fascinated me as a student. Concepts that first appeared in idealized models of matter became operational tools for studying real molecular systems: ensembles, fluctuations, correlation functions, trajectories and averages.\n\n\n\nEarly atomistic molecular dynamics works.\n\n\nThis MD study grew out of a research period at the Max Planck Institute for Polymer Research in Mainz with Florian Müller-Plathe, an experience that was central in shaping my view of molecular simulation.\nPolymers were a particularly fertile setting for this transition. They have a clear molecular and chemical identity, but their behaviour is governed by long relaxation times, collective organization and mesoscale structure.\nThat experience also made clear the limitations of fully atomistic simulations for many soft-matter problems. Atomistic models are chemically detailed and physically transparent, but polymeric and soft-matter systems often require access to length and time scales that are difficult to reach at full molecular resolution."
-  },
-  {
-    "objectID": "scientific-path.html#coarse-graining-without-losing-chemistry",
-    "href": "scientific-path.html#coarse-graining-without-losing-chemistry",
-    "title": "Scientific Path",
-    "section": "Coarse-graining without losing chemistry",
-    "text": "Coarse-graining without losing chemistry\nThe limitations of fully atomistic simulations led me toward coarse-grained molecular models.\nFor me, coarse-graining was never only a way to make simulations faster. It was a way to ask a more subtle question: which molecular information must be preserved when the resolution of a model is reduced?\nThis became particularly clear in the case of vinyl polymers. These systems are chemically simple in their repeating architecture, but their properties depend strongly on stereochemical sequences along the chain. A chemically meaningful coarse-grained model should therefore retain this information rather than treating the polymer as a generic bead-spring chain.\nIn this context, I worked on systematic procedures to map atomistic simulations of vinyl polymers into mesoscopic models. The coarse-grained beads were chosen to correspond to stereochemical diads along the polymer chain.\nEach bead represented a meso or racemo diad, with the bead type assigned according to the local stereochemical relation between consecutive monomeric units. In this way, the coarse-grained chain was not a generic sequence of identical beads: it retained a chemically meaningful stereochemical code inherited from the atomistic model.\nThis was important because the stereochemical sequence of vinyl polymers affects chain conformations and material properties. By transferring this information to the coarse-grained representation, the model could remain simpler and faster while still preserving one of the essential chemical features of the original polymer.\n\n\n\nEarly coarse-graining works.\n\n\nCoarse-graining of vinyl polymer chains: atomistic information is mapped onto mesoscopic beads corresponding to meso and racemo diads, preserving stereochemical sequences.\nOne of the tools used in this phase was iterative Boltzmann inversion. The idea is to refine an effective interaction so that the coarse-grained model progressively reproduces a target structural distribution extracted from atomistic simulations:\n\\[\nU_{n+1}(r) =\nU_n(r) +\nk_\\mathrm{B}T\n\\ln\n\\frac{g_n(r)}{g_\\mathrm{target}(r)} .\n\\]\nHere, (g_n(r)) is the distribution generated by the current coarse-grained potential, while (g_(r)) is the corresponding distribution obtained from the atomistic reference model.\nThe same philosophy can be applied not only to non-bonded radial distribution functions, but also to the structural distributions that define the molecular architecture of the coarse-grained chain: bond lengths, bond angles and local conformational correlations.\nA related development was the introduction of multicentered Gaussian-based potentials for coarse-grained polymer simulations. In realistic polymer models, bond and angle distributions are often not simple single-peaked functions. They may contain several preferred regions, reflecting the underlying atomistic structure. A flexible but still analytical way to represent such distributions is to write them as sums of Gaussian functions:\n\\[\nP(\\theta) =\n\\sum_{i=1}^{n}\n\\frac{A_i}{w_i\\sqrt{\\pi/2}}\n\\exp\\left[\n-2\\frac{(\\theta-\\theta_{ci})^2}{w_i^2}\n\\right] .\n\\]\nThe corresponding effective potential can then be obtained by Boltzmann inversion:\n\\[\nU(\\theta) =\n- k_\\mathrm{B}T\n\\ln P(\\theta)\n+ C .\n\\]\nThis provided an analytical and interpretable alternative to fully tabulated bonded potentials, while retaining the flexibility needed to reproduce complex atomistic target distributions.\nAt the same time, I became interested in the inverse problem: how to reconstruct chemically realistic atomistic structures from coarse-grained configurations. Reverse mapping was not only a technical step. It was a way to keep simplified models connected to molecular chemistry.\nFor vinyl polymers, this problem is particularly delicate because the reconstruction must preserve local stereochemistry. The atomistic fragments must therefore be placed onto the coarse-grained geometry by proper rotations, avoiding reflections that would invert chirality.\nIn the reverse-mapping procedure, atomistic diads were selected from a library of conformations compatible with the local stereochemical sequence and with the coarse-grained geometry. The problem then became one of optimal superposition: how to rotate and translate each atomistic fragment so that it matched the corresponding coarse-grained sites and the previously inserted part of the chain.\nQuaternions offered a compact and robust way to solve this problem. They are elegant mathematical objects for describing rotations in three-dimensional space. In this context, quaternion-based maximization of the structural overlap provided the optimal rotation matrices in real space.\nThese rotation matrices were then used to place the selected atomistic fragments onto the coarse-grained chain, allowing the reconstruction to proceed analytically, fragment by fragment, while preserving stereochemistry. Because the procedure is geometrical and analytical, it avoids expensive potential-energy and force evaluations and makes the reconstruction of atomistic detail very fast.\nA unit quaternion,\n\\[\n\\mathbf q =\n(q_0,q_1,q_2,q_3),\n\\qquad\n\\|\\mathbf q\\|=1 ,\n\\]\nThe optimal quaternion is obtained from the symmetric eigenvalue problem\n\\[\n\\mathbf K \\mathbf q = \\lambda \\mathbf q ,\n\\]\nwhere the matrix (K) is built from the coordinate sums of the two structures to be superimposed. The eigenvector associated with the smallest eigenvalue gives the unit quaternion corresponding to the optimal rotation.\ndefines a rotation matrix (R(q)) that can be used to place an atomistic fragment onto the corresponding coarse-grained geometry. The quaternion corresponding to the optimal rigid rotation can be obtained by solving the eigenvalue problem\n\n\n\nEarly reverse-mapping works.\n\n\nReverse mapping: equilibrated coarse-grained configurations can be transformed back into chemically detailed atomistic structures by selecting compatible atomistic fragments and placing them through optimal real-space rotations.\nA later step showed the full potential of this approach. The diad-based coarse-grained model was combined with connectivity-altering Monte Carlo algorithms, allowing the equilibration of atactic polystyrene melts with molecular weights that would be extremely difficult to access directly at atomistic resolution.\nThis was a key multiscale result: stereochemical information was preserved at the coarse-grained level, long-chain conformations and entanglements could be equilibrated efficiently, and the resulting configurations could be reverse-mapped into detailed united-atom structures for comparison with atomistic and experimental observables.\n\n\n\nEarly reverse-mapping works.\n\n\nBeyond the specific techniques, algorithms and mathematical tools, this phase expressed a broader scientific attitude: molecular models can move forward and backward across resolutions. Atomistic chemistry can be mapped into simpler descriptions, larger scales can be reached, and atomistic detail can be recovered when needed.\nFor me, the central point was not only acceleration, but continuity: extending the scale of molecular simulation without giving up a chemically meaningful description of matter.\nThis attitude naturally prepared the next step in my work: the encounter with field-based descriptions of soft matter."
-  },
-  {
-    "objectID": "scientific-path.html#particles-and-fields",
-    "href": "scientific-path.html#particles-and-fields",
-    "title": "Scientific Path",
-    "section": "Particles and fields",
-    "text": "Particles and fields\nThe question then became: can field-based descriptions be incorporated into molecular dynamics without abandoning particles altogether?\nThe idea of combining particles and fields has an important background in computational polymer physics. In particular, the single-chain-in-mean-field (SCMF) Monte Carlo approach developed by Marcus Müller and co-workers showed how coarse-grained polymer models could be represented through beads interacting with density fields.\nMy own contribution entered this landscape from a molecular-simulation and molecular dynamics perspective. Together with Toshihiro Kawakatsu, I developed the hybrid particle-field molecular dynamics approach, where chemically specific molecular models are propagated by molecular dynamics while their collective non-bonded interactions are described through self-consistent fields.\nThis distinction was important for me. The field representation provided the collective soft-matter description, while molecular dynamics preserved trajectories, molecular architecture, bonded interactions and chemical specificity.\nIn hPF-MD, molecular particles retain architecture, connectivity and chemical identity, while collective non-bonded interactions are described through density fields. This was the conceptual bridge I was looking for: particles carry molecular structure; fields describe mesoscale organization.\nA generic density field associated with a molecular species or bead type can be written as\n\\[\n\\rho_\\alpha(\\mathbf r) =\n\\sum_{i \\in \\alpha}\nw_i \\,\ng(\\mathbf r-\\mathbf r_i) ,\n\\]\nwhere \\(g(\\mathbf r-\\mathbf r_i)\\) is a smoothing or assignment function centred on particle \\(i\\), and \\(w_i\\) is a weight associated with that particle.\nThe non-bonded part of the model can then be expressed as a functional of the density fields,\n\\[\nU_\\mathrm{field}\n=\n\\int d\\mathbf r \\,\nf\\left(\\rho_1(\\mathbf r),\\rho_2(\\mathbf r),\\ldots\\right) .\n\\]\nFrom a statistical-mechanical point of view, this idea is related to field-theoretical transformations such as the Hubbard–Stratonovich transformation. These transformations make it possible to rewrite density–density interactions in terms of auxiliary fields coupled to molecular densities.\nIn the saddle-point approximation, the auxiliary field becomes a self-consistent external potential acting on the molecular particles. In the hybrid particle–field formulation, this operational idea is expressed by obtaining the external potential from the functional derivative of the non-bonded density functional:\n\\[\nV_\\alpha(\\mathbf r)\n=\n\\frac{\\delta U_\\mathrm{field}}\n{\\delta \\rho_\\alpha(\\mathbf r)} .\n\\]\nThe force on a particle of type () then follows from the spatial variation of this potential:\n\\[\n\\mathbf F_i\n\\simeq\n- w_i\n\\nabla V_\\alpha(\\mathbf r)\n\\bigg|_{\\mathbf r=\\mathbf r_i}.\n\\]\n\n\n\nEarly hPF-MD works.\n\n\nIn particle–field molecular dynamics, this field-based view becomes an operational simulation strategy: molecular particles evolve under fields generated by molecular densities.\n\nExtending particle–field simulations to charged systems\nA further important step was the extension of the hybrid particle–field framework to charged molecular systems.\n\n\n\nEarly hPF-MD works.\n\n\nIn the original particle–field formulation, non-bonded interactions were described through density fields associated with molecular components. This was highly effective for soft-matter systems dominated by short-range collective interactions, but charged macromolecules and polyelectrolytes required an explicit treatment of electrostatics within the same field-based philosophy.\nThe key idea was to describe electrostatic interactions not through direct pairwise Coulomb forces between all charged particles, but through electrostatic fields self-consistently determined by the charge density distribution.\nIn this formulation, the electrostatic potential is split into short- and long-range contributions,\n\\[\n\\psi(\\mathbf r)\n=\n\\psi^{S}(\\mathbf r)\n+\n\\psi^{L}(\\mathbf r).\n\\]\nThe long-range contribution follows the spirit of Ewald-type treatments. After assigning charge densities to a lattice, the long-range electrostatic potential can be obtained in reciprocal space from the Fourier transform of the charge distribution:\n\\[\n\\widehat{\\psi}^{L}(\\mathbf m)\n=\nC(\\mathbf m)\n\\sum_{j=1}^{N}\nq_j\n\\exp\\left(\ni\\mathbf m \\cdot \\mathbf r_j\n\\right),\n\\]\nwith\n\\[\nC(\\mathbf m)\n=\n\\frac{\n4\\pi k_\\mathrm{B}T l_\\mathrm{B}\n\\exp\\left(-m^2/4\\alpha^2\\right)\n}{\nV m^2\n}.\n\\]\nHere, \\(q_j\\) is the charge of particle \\(j\\), \\(l_\\mathrm{B}\\) is the Bjerrum length, \\(V\\) is the simulation box volume, and \\(\\alpha\\) controls the Ewald splitting.\nThe most original part of the construction concerns the short-range electrostatic contribution. In conventional molecular dynamics, this part would normally be treated as a pairwise interaction. In the particle–field framework, however, the interaction must be expressed in terms of fields. This was achieved by mapping the short-range electrostatic energy onto a Flory–Huggins-like mean-field parameter:\n\\[\nw_e\n=\nz_\\mathrm{CN}\nl_\\mathrm{B}\n\\frac{\\mathrm{erfc}(\\alpha\\sigma)}{\\sigma}.\n\\]\nHere, \\(z_\\mathrm{CN}\\) is a coordination number, \\(\\sigma\\) is the coarse-grained particle diameter, and \\(\\mathrm{erfc}(\\alpha\\sigma)/\\sigma\\) represents the short-range Ewald contribution at the coarse-grained contact distance.\nThe corresponding short-range electrostatic potential at a lattice point can then be written in density-field form as\n\\[\n\\psi^{S}(\\mathbf l)\n=\nk_\\mathrm{B}T \\,\nw_e \\,\nQ(\\mathbf l),\n\\]\nwhere \\(Q(\\mathbf l)\\) is the charge density assigned to the lattice point \\(\\mathbf l\\).\nThis step is conceptually important. It translates the short-range part of electrostatics into the same language used for composition fields in hybrid particle–field simulations: a local field proportional to a density. The long-range electrostatic contribution is handled through Fourier-space solution of the field, while the short-range contribution is absorbed into a local mean-field parameter.\nThe resulting electrostatic field acts back on the charged particles, allowing energies and forces to be obtained by interpolation from the lattice fields. In this way, charged particles retain their molecular identity and charge, while electrostatic organization is described through self-consistent fields.\nThis extension opened the possibility of applying hybrid particle–field molecular dynamics to polyelectrolytes, charged block copolymers, ionic systems and, more generally, soft-matter systems where electrostatics and mesoscale organization are coupled."
-  },
-  {
-    "objectID": "scientific-path.html#biological-and-soft-matter-complexity",
-    "href": "scientific-path.html#biological-and-soft-matter-complexity",
-    "title": "Scientific Path",
-    "section": "Biological and soft-matter complexity",
-    "text": "Biological and soft-matter complexity\nAn important part of this trajectory has been the application of coarse-grained and hybrid particle–field models to biological and bio-inspired soft matter.\nMembranes are a particularly demanding test for molecular simulation. They are organized, heterogeneous and dynamic; at the same time, their behaviour depends on molecular architecture, lipid composition, headgroup chemistry, tail structure, electrostatics, hydration and interactions with surrounding molecules or particles.\n\n\n\nbiomolecular works.\n\n\nThis is especially true for bacterial membrane models and lipid systems inspired by the outer membrane of Gram-negative bacteria, where chemical specificity and collective organization are tightly coupled. These systems helped me to test how far coarse-grained and particle–field approaches could be pushed while retaining a meaningful connection to molecular detail.\n\n\n\nbiomolecular works.\n\n\nFor me, such applications were not a departure from the methodological path. They were a way to test it in systems where complexity is not only large-scale, but also chemical and biological."
-  },
-  {
-    "objectID": "scientific-path.html#occam",
-    "href": "scientific-path.html#occam",
-    "title": "Scientific Path",
+    "objectID": "story.html#occam",
+    "href": "story.html#occam",
+    "title": "Story",
     "section": "OCCAM",
-    "text": "OCCAM\nThe development of OCCAM is part of the same path.\nOCCAM was not born only as an implementation of hybrid particle–field molecular dynamics. In its earliest form, before 2007, it was already a molecular dynamics code for chemically specific coarse-grained models, including models based on iterative Boltzmann inversion and analytical effective potentials.\nThis origin is important for understanding its later role. OCCAM provided a working environment in which molecular models, effective potentials, algorithms and physical ideas could be modified directly. Having an independent code lowered the barrier to methodological innovation: new ideas could be implemented, tested and connected to applications without waiting for them to fit into an existing software architecture.\nThe development of hybrid particle-field molecular dynamics followed precisely this route. The study of field-based statistical mechanics and self-consistent field ideas did not remain only a theoretical influence. Through OCCAM, these ideas became an operational molecular simulation method, in which particles retain molecular architecture while non-bonded interactions are described through density fields."
+    "text": "OCCAM\nThe development of OCCAM is part of this same trajectory. OCCAM is a hybrid particle–field molecular dynamics platform designed to make chemically specific density-field simulations scalable and usable for large soft-matter systems.\nFor me, software is not separate from scientific vision. It is the place where ideas about models, approximations, algorithms and applications become testable."
+  },
+  {
+    "objectID": "story.html#where-this-leads",
+    "href": "story.html#where-this-leads",
+    "title": "Story",
+    "section": "Where this leads",
+    "text": "Where this leads\nMy current work continues this path. I am interested in density-based descriptions that remain connected to molecular chemistry and can help describe structure, organization and behaviour in complex soft matter.\nThe broader goal is to build molecular simulation approaches that are physically grounded, chemically meaningful and useful for systems where molecular detail and mesoscale organization cannot be separated."
   }
 ]
