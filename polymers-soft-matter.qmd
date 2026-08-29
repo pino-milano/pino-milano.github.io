@@ -1,6 +1,7 @@
 ---
 title: "Polymers and Soft Matter"
 ---
+Polymer dynamics, entanglement, complex molecular architectures and collective organization.
 
 Polymers have been the main testing ground for my way of connecting molecular detail to collective behaviour. Their chemistry is encoded locally, but their observable properties emerge from conformations, packing, entanglements, interfaces and relaxation over much larger scales.
 

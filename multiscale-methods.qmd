@@ -1,8 +1,7 @@
 ---
 title: "Multiscale Simulation Methods"
 ---
-
-My methodological work addresses a central problem in molecular simulation: how to extend accessible length and time scales while preserving the chemical information that matters.
+Multiscale modelling is not only a way to reduce computational cost. It is a question of representation: which molecular degrees of freedom can be eliminated, which collective variables must be retained, and which physical properties should remain invariant across levels of resolution? 
 
 ## Coarse-graining without losing chemistry
 
@@ -27,6 +26,8 @@ I developed a fast geometrical procedure based on libraries of stereochemically 
 [![Reverse mapping of coarse-grained polymer models.](assets/figures/back_mapping.jpg){width="85%" fig-alt="Atomistic fragments reconstructed on a coarse-grained polymer chain"}](https://doi.org/10.1021/jp066212l){target="_blank"}
 
 ## Particles and fields
+
+Combination of particles and fields living in the same model provide an appealing route to coarse-graining because  an explicit molecular description is retained while representing collective interactions through continuous fields. More generally, they offer a framework for exploring how molecular detail and collective behaviour can be connected across different levels of resolution, and how different representations of matter can be combined within molecular simulation.
 
 Together with Toshihiro Kawakatsu, I developed hybrid particle–field molecular dynamics. Molecular particles retain architecture, connectivity and chemical identity, while collective non-bonded interactions are described through density fields.
 

@@ -1,6 +1,7 @@
 ---
 title: "Interfaces and Nanomaterials"
 ---
+Structure, thermodynamics and molecular organization at complex interfaces.
 
 Interfaces are where molecular specificity and collective organization meet most directly. My work examines how polymers and complex molecular fluids organize near nanoparticles, solid surfaces and grafted materials, and how this interfacial structure influences macroscopic behaviour.
 

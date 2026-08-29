@@ -6,7 +6,7 @@ title: "Giuseppe Milano"
 
 I work at the border between two ways of understanding matter: the chemist’s attention to molecular identity and the physicist’s search for mathematical and computational descriptions.
 
-I want to understand how matter works: how molecular structure and interactions give rise to the collective properties of complex systems. Molecular simulation provides a way to connect these different scales, following the emergence of collective behaviour without losing chemical specificity.
+I want to understand how molecular interactions give rise to collective behaviour, and how this connection can be represented across different levels of resolution. Multiscale molecular simulation provides a way to connect different scales, following the emergence of collective behaviour without losing chemical specificity.
 
 Across polymers, biomembranes, surfactants, nanocomposites, and nanoplastics, the underlying goal remains the same: connecting molecular detail with collective organization without sacrificing either.
 A central and continuing focus of my work is hybrid particle–field molecular dynamics (hPF‑MD). For more than fifteen years, I have continued to advance this approach and its implementation in OCCAM, a massively parallel molecular simulation code that combines chemically specific molecular models with field-based descriptions of non-bonded interactions, enabling simulations of large and complex systems without losing molecular architecture and identity.
@@ -20,9 +20,9 @@ A central and continuing focus of my work is hybrid particle–field molecular d
 ::: {.g-col-12 .g-col-md-6}
 [![](assets/figures/lipid1.jpg){fig-alt="Multiscale molecular simulation of a lipid membrane"}](multiscale-methods.qmd)
 
-### [Multiscale Simulation Methods](multiscale-methods.qmd)
+### [Molecular Simulation and Statistical Mechanics](multiscale-methods.qmd)
 
-Coarse-graining, backmapping, particle–field models, and high-performance molecular simulation.
+Coarse-graining, particle–field models, and high-performance molecular simulation.
 :::
 
 ::: {.g-col-12 .g-col-md-6}

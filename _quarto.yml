@@ -9,8 +9,6 @@ website:
         text: Home
       - href: scientific-path.qmd
         text: Scientific Path
-      - href: research.qmd
-        text: Research
       - href: occam.qmd
         text: OCCAM
       - href: publications.qmd
