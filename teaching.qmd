@@ -1,0 +1,28 @@
+# Teaching
+
+## Statistical Mechanics
+
+**Bachelor’s Degree in Materials Engineering**
+
+This course introduces the statistical-mechanical foundations needed to connect microscopic states and molecular interactions with the macroscopic properties of materials.
+
+The aim is to provide students with a physical framework for understanding how collective properties emerge from microscopic behaviour and how statistical descriptions complement the thermodynamic description of matter.
+
+## Molecular Simulation of Materials
+
+**Master’s Degree in Materials Engineering**
+
+This course introduces molecular simulation as a tool for investigating the structure and properties of materials.
+
+The course covers the basic principles of molecular modelling and molecular dynamics, interaction models, statistical sampling and the analysis of simulation results, with particular attention to the relationship between molecular representation, simulation methodology and material properties.
+
+## Numerical Modeling of Materials
+
+**Module within “Numerical Modelling of Materials and Solid-State Physics”**
+**Master’s Degree in Mathematical Engineering**
+
+This module introduces numerical approaches to the modelling of materials, emphasizing the connection between physical models, mathematical formulation and computational implementation.
+
+The course is addressed to students with a strong mathematical background and provides a perspective on how numerical methods can be used to describe material behaviour at different levels of resolution.
+
+For official course information and institutional details, see my [University faculty page](https://www.docenti.unina.it/giuseppe.milano).

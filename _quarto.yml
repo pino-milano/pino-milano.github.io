@@ -17,6 +17,9 @@ website:
         text: Join
       - href: contact.qmd
         text: Contact
+      - href: teaching.qmd
+        text: Teaching
+
 
 format:
   html:
