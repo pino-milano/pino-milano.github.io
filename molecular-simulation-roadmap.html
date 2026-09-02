@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>teaching – Giuseppe Milano</title>
+<title>Ways into Molecular Simulation – Giuseppe Milano</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -120,7 +120,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Contact</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./teaching.html" aria-current="page"> 
+    <a class="nav-link" href="./teaching.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
 </ul>
@@ -139,58 +139,93 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#teaching" id="toc-teaching" class="nav-link active" data-scroll-target="#teaching">Teaching</a>
-  <ul class="collapse">
-  <li><a href="#statistical-mechanics" id="toc-statistical-mechanics" class="nav-link" data-scroll-target="#statistical-mechanics">Statistical Mechanics</a></li>
-  <li><a href="#molecular-simulation-of-materials" id="toc-molecular-simulation-of-materials" class="nav-link" data-scroll-target="#molecular-simulation-of-materials">Molecular Simulation of Materials</a></li>
-  <li><a href="#numerical-modeling-of-materials" id="toc-numerical-modeling-of-materials" class="nav-link" data-scroll-target="#numerical-modeling-of-materials">Numerical Modeling of Materials</a></li>
-  <li><a href="#learning-resources" id="toc-learning-resources" class="nav-link" data-scroll-target="#learning-resources">Learning resources</a>
-  <ul class="collapse">
-  <li><a href="#ways-into-molecular-simulation" id="toc-ways-into-molecular-simulation" class="nav-link" data-scroll-target="#ways-into-molecular-simulation">Ways into Molecular Simulation</a></li>
-  </ul></li>
-  </ul></li>
+  <li><a href="#an-application-oriented-route" id="toc-an-application-oriented-route" class="nav-link active" data-scroll-target="#an-application-oriented-route">An application-oriented route</a></li>
+  <li><a href="#a-theory-and-methods-route" id="toc-a-theory-and-methods-route" class="nav-link" data-scroll-target="#a-theory-and-methods-route">A theory-and-methods route</a></li>
+  <li><a href="#from-statistical-mechanics-to-simulation" id="toc-from-statistical-mechanics-to-simulation" class="nav-link" data-scroll-target="#from-statistical-mechanics-to-simulation">From statistical mechanics to simulation</a></li>
+  <li><a href="#learning-by-coding" id="toc-learning-by-coding" class="nav-link" data-scroll-target="#learning-by-coding">Learning by coding</a></li>
+  <li><a href="#how-the-routes-connect" id="toc-how-the-routes-connect" class="nav-link" data-scroll-target="#how-the-routes-connect">How the routes connect</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Ways into Molecular Simulation</h1>
+</div>
 
 
 
+<div class="quarto-title-meta column-page-left">
 
-<section id="teaching" class="level1">
-<h1>Teaching</h1>
-<p><img src="assets/figures/blackboard.png" class="img-fluid" style="width:85.0%" alt="Blackboard"></p>
-<section id="statistical-mechanics" class="level2">
-<h2 class="anchored" data-anchor-id="statistical-mechanics">Statistical Mechanics</h2>
-<p><strong>Bachelor’s Degree in Materials Engineering</strong></p>
-<p>This course introduces the statistical-mechanical foundations needed to connect microscopic states and molecular interactions with the macroscopic properties of materials.</p>
-<p>The aim is to provide students with a physical framework for understanding how collective properties emerge from microscopic behaviour and how statistical descriptions complement the thermodynamic description of matter.</p>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>There is no single route into molecular simulation.</p>
+<p>Students and researchers may enter the field from different starting points and follow different directions depending on whether their main interest is practical modelling, theoretical understanding, statistical mechanics, numerical methods, or software development.</p>
+<p>These routes are not alternatives in a strict sense. They often intersect and gradually converge.</p>
+<section id="an-application-oriented-route" class="level2">
+<h2 class="anchored" data-anchor-id="an-application-oriented-route">An application-oriented route</h2>
+<p>A practical entry point may start from an applied textbook and from the informed use of established simulation packages such as GROMACS, LAMMPS, or related tools.</p>
+<p>The emphasis is on learning how to construct molecular models, prepare systems, choose appropriate simulation protocols, analyse trajectories, and critically assess the physical meaning and limitations of the results.</p>
+<p>Useful starting points:</p>
+<ul>
+<li><a href="https://manual.gromacs.org/">GROMACS documentation</a></li>
+<li><a href="https://www.mdtutorials.com/gmx/">GROMACS tutorials by Justin Lemkul</a></li>
+<li><a href="https://docs.lammps.org/">LAMMPS documentation</a></li>
+</ul>
 </section>
-<section id="molecular-simulation-of-materials" class="level2">
-<h2 class="anchored" data-anchor-id="molecular-simulation-of-materials">Molecular Simulation of Materials</h2>
-<p><strong>Master’s Degree in Materials Engineering</strong></p>
-<p>This course introduces molecular simulation as a tool for investigating the structure and properties of materials.</p>
-<p>The course covers the basic principles of molecular modelling and molecular dynamics, interaction models, statistical sampling and the analysis of simulation results, with particular attention to the relationship between molecular representation, simulation methodology and material properties.</p>
+<section id="a-theory-and-methods-route" class="level2">
+<h2 class="anchored" data-anchor-id="a-theory-and-methods-route">A theory-and-methods route</h2>
+<p>A more fundamental route may begin with a text such as <em>Understanding Molecular Simulation</em> by Daan Frenkel and Berend Smit.</p>
+<p>This path naturally leads toward statistical sampling, numerical algorithms, free-energy methods, force-field implementation, and progressively more demanding case studies.</p>
+<p>Recommended texts:</p>
+<ul>
+<li>D. Frenkel and B. Smit, <em>Understanding Molecular Simulation</em></li>
+<li>M. P. Allen and D. J. Tildesley, <em>Computer Simulation of Liquids</em></li>
+<li>A. R. Leach, <em>Molecular Modelling: Principles and Applications</em></li>
+</ul>
 </section>
-<section id="numerical-modeling-of-materials" class="level2">
-<h2 class="anchored" data-anchor-id="numerical-modeling-of-materials">Numerical Modeling of Materials</h2>
-<p><strong>Module within “Numerical Modelling of Materials and Solid-State Physics”</strong> <strong>Master’s Degree in Mathematical Engineering</strong></p>
-<p>This module introduces numerical approaches to the modelling of materials, emphasizing the connection between physical models, mathematical formulation and computational implementation.</p>
-<p>The course is addressed to students with a strong mathematical background and provides a perspective on how numerical methods can be used to describe material behaviour at different levels of resolution.</p>
+<section id="from-statistical-mechanics-to-simulation" class="level2">
+<h2 class="anchored" data-anchor-id="from-statistical-mechanics-to-simulation">From statistical mechanics to simulation</h2>
+<p>Molecular simulation can also be approached as a natural continuation of a course in statistical mechanics.</p>
+<p>From this perspective, simulation becomes a numerical laboratory in which concepts such as ensembles, probability distributions, fluctuations, correlation functions, free energies, and phase behaviour become directly observable.</p>
+<p>The emphasis is less on learning a particular software package and more on understanding how statistical-mechanical concepts are translated into measurable quantities and computational experiments.</p>
 </section>
-<section id="learning-resources" class="level2">
-<h2 class="anchored" data-anchor-id="learning-resources">Learning resources</h2>
-<p>Beyond the courses listed above, I am collecting a few learning paths for students interested in molecular simulation and related computational approaches.</p>
-<section id="ways-into-molecular-simulation" class="level3">
-<h3 class="anchored" data-anchor-id="ways-into-molecular-simulation">Ways into Molecular Simulation</h3>
-<p>There is no single route into molecular simulation. One may start from applications and simulation software, from statistical mechanics, from numerical methods, or from coding and algorithm development.</p>
-<p><a href="./molecular-simulation-roadmap.html">Explore the different learning paths →</a></p>
-<p>For official course information and institutional details, see my <a href="https://www.docenti.unina.it/giuseppe.milano">University faculty page</a>.</p>
+<section id="learning-by-coding" class="level2">
+<h2 class="anchored" data-anchor-id="learning-by-coding">Learning by coding</h2>
+<p>Another route is to learn simulation methods by implementing simple models and algorithms directly.</p>
+<p>A possible progression is:</p>
+<ol type="1">
+<li>Implement a small Lennard-Jones system and compute pair interactions.</li>
+<li>Integrate the equations of motion using velocity-Verlet.</li>
+<li>Check conservation laws in the NVE ensemble.</li>
+<li>Compute observables such as temperature, pressure, radial distribution functions, mean-square displacement, and diffusion coefficients.</li>
+<li>Implement a simple Monte Carlo simulation and compare averages obtained from MD and MC.</li>
+<li>Repeat selected problems using a mature package such as GROMACS or LAMMPS.</li>
+<li>Inspect the internal structure of real simulation codes: neighbour lists, force loops, data structures, and parallelization.</li>
+</ol>
+<p>Python is often ideal for understanding ideas quickly and testing algorithms. Familiarity with a compiled language such as C, C++, or Fortran becomes increasingly useful when moving from using simulation software to understanding or developing it.</p>
+<blockquote class="blockquote">
+<p>Coding a small simulation is not an alternative to using mature simulation packages: it is a way of understanding what those packages are actually doing.</p>
+</blockquote>
+</section>
+<section id="how-the-routes-connect" class="level2">
+<h2 class="anchored" data-anchor-id="how-the-routes-connect">How the routes connect</h2>
+<p>Someone who starts from GROMACS may later want to understand integration algorithms or statistical ensembles.</p>
+<p>Someone coming from statistical mechanics may eventually need practical expertise with production simulation software.</p>
+<p>Someone interested in methods may move naturally toward low-level implementation, code development, and high-performance computing.</p>
+<p>The important point is not where one starts, but how progressively one connects physical concepts, numerical methods, molecular models, software tools, and scientific questions.</p>
 
 
-</section>
-</section>
 </section>
 
 </main> <!-- /main -->

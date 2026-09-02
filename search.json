@@ -4,7 +4,7 @@
     "href": "teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "Bachelor’s Degree in Materials Engineering\nThis course introduces the statistical-mechanical foundations needed to connect microscopic states and molecular interactions with the macroscopic properties of materials.\nThe aim is to provide students with a physical framework for understanding how collective properties emerge from microscopic behaviour and how statistical descriptions complement the thermodynamic description of matter.\n\n\n\nMaster’s Degree in Materials Engineering\nThis course introduces molecular simulation as a tool for investigating the structure and properties of materials.\nThe course covers the basic principles of molecular modelling and molecular dynamics, interaction models, statistical sampling and the analysis of simulation results, with particular attention to the relationship between molecular representation, simulation methodology and material properties.\n\n\n\nModule within “Numerical Modelling of Materials and Solid-State Physics” Master’s Degree in Mathematical Engineering\nThis module introduces numerical approaches to the modelling of materials, emphasizing the connection between physical models, mathematical formulation and computational implementation.\nThe course is addressed to students with a strong mathematical background and provides a perspective on how numerical methods can be used to describe material behaviour at different levels of resolution.\nFor official course information and institutional details, see my University faculty page."
+    "text": "Bachelor’s Degree in Materials Engineering\nThis course introduces the statistical-mechanical foundations needed to connect microscopic states and molecular interactions with the macroscopic properties of materials.\nThe aim is to provide students with a physical framework for understanding how collective properties emerge from microscopic behaviour and how statistical descriptions complement the thermodynamic description of matter.\n\n\n\nMaster’s Degree in Materials Engineering\nThis course introduces molecular simulation as a tool for investigating the structure and properties of materials.\nThe course covers the basic principles of molecular modelling and molecular dynamics, interaction models, statistical sampling and the analysis of simulation results, with particular attention to the relationship between molecular representation, simulation methodology and material properties.\n\n\n\nModule within “Numerical Modelling of Materials and Solid-State Physics” Master’s Degree in Mathematical Engineering\nThis module introduces numerical approaches to the modelling of materials, emphasizing the connection between physical models, mathematical formulation and computational implementation.\nThe course is addressed to students with a strong mathematical background and provides a perspective on how numerical methods can be used to describe material behaviour at different levels of resolution.\n\n\n\nBeyond the courses listed above, I am collecting a few learning paths for students interested in molecular simulation and related computational approaches.\n\n\nThere is no single route into molecular simulation. One may start from applications and simulation software, from statistical mechanics, from numerical methods, or from coding and algorithm development.\nExplore the different learning paths →\nFor official course information and institutional details, see my University faculty page."
   },
   {
     "objectID": "teaching.html#statistical-mechanics",
@@ -25,7 +25,14 @@
     "href": "teaching.html#numerical-modeling-of-materials",
     "title": "Teaching",
     "section": "",
-    "text": "Module within “Numerical Modelling of Materials and Solid-State Physics” Master’s Degree in Mathematical Engineering\nThis module introduces numerical approaches to the modelling of materials, emphasizing the connection between physical models, mathematical formulation and computational implementation.\nThe course is addressed to students with a strong mathematical background and provides a perspective on how numerical methods can be used to describe material behaviour at different levels of resolution.\nFor official course information and institutional details, see my University faculty page."
+    "text": "Module within “Numerical Modelling of Materials and Solid-State Physics” Master’s Degree in Mathematical Engineering\nThis module introduces numerical approaches to the modelling of materials, emphasizing the connection between physical models, mathematical formulation and computational implementation.\nThe course is addressed to students with a strong mathematical background and provides a perspective on how numerical methods can be used to describe material behaviour at different levels of resolution."
+  },
+  {
+    "objectID": "teaching.html#learning-resources",
+    "href": "teaching.html#learning-resources",
+    "title": "Teaching",
+    "section": "",
+    "text": "Beyond the courses listed above, I am collecting a few learning paths for students interested in molecular simulation and related computational approaches.\n\n\nThere is no single route into molecular simulation. One may start from applications and simulation software, from statistical mechanics, from numerical methods, or from coding and algorithm development.\nExplore the different learning paths →\nFor official course information and institutional details, see my University faculty page."
   },
   {
     "objectID": "scientific-path.html",
@@ -196,6 +203,132 @@
     "text": "Publication-based code timeline\n2009 - Original hPF-MD implementation: Core hybrid particle-field molecular dynamics implementation and dense-polymer applications establish the methodological basis of the OCCAM code family. Journal of Chemical Physics 2009\n2012 - Multi-node multi-CPU parallelization: MPI molecular decomposition and density-field reductions demonstrate that OCCAM can scale to large hPF-MD systems. Journal of Computational Chemistry 2012\n2021 - Optimized multi-CPU large-scale: Interface-aware, derivative, interpolation optimizations enable multi-million bead simulations Journal of Chemical Theory and Computation 2021\n2025 - Multi-node multi-GPU OCCAM: GPU-resident implementation suitable for giant simulations up to 10 billion-particle scales. Journal of Computational Chemistry 2025"
   },
   {
+    "objectID": "molecular-simulation-roadmap.html",
+    "href": "molecular-simulation-roadmap.html",
+    "title": "Ways into Molecular Simulation",
+    "section": "",
+    "text": "There is no single route into molecular simulation.\nStudents and researchers may enter the field from different starting points and follow different directions depending on whether their main interest is practical modelling, theoretical understanding, statistical mechanics, numerical methods, or software development.\nThese routes are not alternatives in a strict sense. They often intersect and gradually converge."
+  },
+  {
+    "objectID": "molecular-simulation-roadmap.html#an-application-oriented-route",
+    "href": "molecular-simulation-roadmap.html#an-application-oriented-route",
+    "title": "Ways into Molecular Simulation",
+    "section": "An application-oriented route",
+    "text": "An application-oriented route\nA practical entry point may start from an applied textbook and from the informed use of established simulation packages such as GROMACS, LAMMPS, or related tools.\nThe emphasis is on learning how to construct molecular models, prepare systems, choose appropriate simulation protocols, analyse trajectories, and critically assess the physical meaning and limitations of the results.\nUseful starting points:\n\nGROMACS documentation\nGROMACS tutorials by Justin Lemkul\nLAMMPS documentation"
+  },
+  {
+    "objectID": "molecular-simulation-roadmap.html#a-theory-and-methods-route",
+    "href": "molecular-simulation-roadmap.html#a-theory-and-methods-route",
+    "title": "Ways into Molecular Simulation",
+    "section": "A theory-and-methods route",
+    "text": "A theory-and-methods route\nA more fundamental route may begin with a text such as Understanding Molecular Simulation by Daan Frenkel and Berend Smit.\nThis path naturally leads toward statistical sampling, numerical algorithms, free-energy methods, force-field implementation, and progressively more demanding case studies.\nRecommended texts:\n\nD. Frenkel and B. Smit, Understanding Molecular Simulation\nM. P. Allen and D. J. Tildesley, Computer Simulation of Liquids\nA. R. Leach, Molecular Modelling: Principles and Applications"
+  },
+  {
+    "objectID": "molecular-simulation-roadmap.html#from-statistical-mechanics-to-simulation",
+    "href": "molecular-simulation-roadmap.html#from-statistical-mechanics-to-simulation",
+    "title": "Ways into Molecular Simulation",
+    "section": "From statistical mechanics to simulation",
+    "text": "From statistical mechanics to simulation\nMolecular simulation can also be approached as a natural continuation of a course in statistical mechanics.\nFrom this perspective, simulation becomes a numerical laboratory in which concepts such as ensembles, probability distributions, fluctuations, correlation functions, free energies, and phase behaviour become directly observable.\nThe emphasis is less on learning a particular software package and more on understanding how statistical-mechanical concepts are translated into measurable quantities and computational experiments."
+  },
+  {
+    "objectID": "molecular-simulation-roadmap.html#learning-by-coding",
+    "href": "molecular-simulation-roadmap.html#learning-by-coding",
+    "title": "Ways into Molecular Simulation",
+    "section": "Learning by coding",
+    "text": "Learning by coding\nAnother route is to learn simulation methods by implementing simple models and algorithms directly.\nA possible progression is:\n\nImplement a small Lennard-Jones system and compute pair interactions.\nIntegrate the equations of motion using velocity-Verlet.\nCheck conservation laws in the NVE ensemble.\nCompute observables such as temperature, pressure, radial distribution functions, mean-square displacement, and diffusion coefficients.\nImplement a simple Monte Carlo simulation and compare averages obtained from MD and MC.\nRepeat selected problems using a mature package such as GROMACS or LAMMPS.\nInspect the internal structure of real simulation codes: neighbour lists, force loops, data structures, and parallelization.\n\nPython is often ideal for understanding ideas quickly and testing algorithms. Familiarity with a compiled language such as C, C++, or Fortran becomes increasingly useful when moving from using simulation software to understanding or developing it.\n\nCoding a small simulation is not an alternative to using mature simulation packages: it is a way of understanding what those packages are actually doing."
+  },
+  {
+    "objectID": "molecular-simulation-roadmap.html#how-the-routes-connect",
+    "href": "molecular-simulation-roadmap.html#how-the-routes-connect",
+    "title": "Ways into Molecular Simulation",
+    "section": "How the routes connect",
+    "text": "How the routes connect\nSomeone who starts from GROMACS may later want to understand integration algorithms or statistical ensembles.\nSomeone coming from statistical mechanics may eventually need practical expertise with production simulation software.\nSomeone interested in methods may move naturally toward low-level implementation, code development, and high-performance computing.\nThe important point is not where one starts, but how progressively one connects physical concepts, numerical methods, molecular models, software tools, and scientific questions."
+  },
+  {
+    "objectID": "interfaces-nanomaterials.html",
+    "href": "interfaces-nanomaterials.html",
+    "title": "Interfaces and Nanomaterials",
+    "section": "",
+    "text": "Structure, thermodynamics and molecular organization at complex interfaces.\nInterfaces are where molecular specificity and collective organization meet most directly. My work examines how polymers and complex molecular fluids organize near nanoparticles, solid surfaces and grafted materials, and how this interfacial structure influences macroscopic behaviour."
+  },
+  {
+    "objectID": "interfaces-nanomaterials.html#polymernanoparticle-interfaces",
+    "href": "interfaces-nanomaterials.html#polymernanoparticle-interfaces",
+    "title": "Interfaces and Nanomaterials",
+    "section": "Polymer–nanoparticle interfaces",
+    "text": "Polymer–nanoparticle interfaces\nNanocomposites pose a characteristic multiscale problem: the local chemistry of a surface controls adsorption and packing, while the response of polymer chains extends far into the surrounding material. Coarse-grained and hybrid particle–field models make it possible to study these extended interphases without reducing the polymer to a chemically anonymous medium.\n\n\n\nPolymer organization around carbon black."
+  },
+  {
+    "objectID": "interfaces-nanomaterials.html#grafted-and-structured-surfaces",
+    "href": "interfaces-nanomaterials.html#grafted-and-structured-surfaces",
+    "title": "Interfaces and Nanomaterials",
+    "section": "Grafted and structured surfaces",
+    "text": "Grafted and structured surfaces\nPolymer brushes and grafted nanoparticles provide controlled systems in which chain architecture, grafting density, solvent conditions and surface curvature compete. They allow simulations to connect molecular design with steric stabilization, interfacial response and the organization of surrounding molecules.\n\n\n\nMolecular simulation of grafted polymer materials."
+  },
+  {
+    "objectID": "interfaces-nanomaterials.html#complex-material-interfaces",
+    "href": "interfaces-nanomaterials.html#complex-material-interfaces",
+    "title": "Interfaces and Nanomaterials",
+    "section": "Complex material interfaces",
+    "text": "Complex material interfaces\nI use these systems not only as applications, but also as demanding tests of simulation methodology. Heterogeneous interfaces require models that can retain distinct chemical components while following collective rearrangements over large domains and long times.\n\n\n\nMolecular modelling of carbon-black interfaces.\n\n\nSelected publications"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Department of Chemical, Materials and Production Engineering\nUniversity of Naples Federico II\nNaples, Italy\nEmail: giuseppe.milano@unina.it"
+  },
+  {
+    "objectID": "contact.html#giuseppe-milano",
+    "href": "contact.html#giuseppe-milano",
+    "title": "Contact",
+    "section": "",
+    "text": "Department of Chemical, Materials and Production Engineering\nUniversity of Naples Federico II\nNaples, Italy\nEmail: giuseppe.milano@unina.it"
+  },
+  {
+    "objectID": "contact.html#profiles",
+    "href": "contact.html#profiles",
+    "title": "Contact",
+    "section": "Profiles",
+    "text": "Profiles\n\nUniversity profile: coming soon\nORCID: coming soon\nGoogle Scholar: coming soon\nGitHub: coming soon"
+  },
+  {
+    "objectID": "biological-environmental-systems.html",
+    "href": "biological-environmental-systems.html",
+    "title": "Biological and Environmental Systems",
+    "section": "",
+    "text": "Biological and environmental systems test whether multiscale models can retain meaningful chemical specificity while addressing strongly heterogeneous, dynamic and compositionally complex matter."
+  },
+  {
+    "objectID": "biological-environmental-systems.html#biomembranes",
+    "href": "biological-environmental-systems.html#biomembranes",
+    "title": "Biological and Environmental Systems",
+    "section": "Biomembranes",
+    "text": "Biomembranes\nMembranes are organized, heterogeneous and dynamic. Their behaviour depends on molecular architecture, lipid composition, headgroup chemistry, tail structure, electrostatics, hydration and interactions with surrounding molecules or particles.\n\n\n\nCoarse-grained molecular model of a lipid membrane.\n\n\nBacterial membranes, particularly models inspired by the outer membrane of Gram-negative bacteria, are especially demanding because chemical specificity and collective organization are tightly coupled. They provide a stringent setting for testing how far coarse-grained and particle–field models can be pushed while remaining connected to molecular detail.\n\n\n\nComplex bacterial lipid membrane."
+  },
+  {
+    "objectID": "biological-environmental-systems.html#nanoplastics-and-biointerfaces",
+    "href": "biological-environmental-systems.html#nanoplastics-and-biointerfaces",
+    "title": "Biological and Environmental Systems",
+    "section": "Nanoplastics and biointerfaces",
+    "text": "Nanoplastics and biointerfaces\nMy environmental work follows plastic nanoparticles from their material structure to their interactions with water, ions and biological matter. The aim is to understand how polymer composition, surface chemistry, morphology and ageing influence aggregation, interfacial organization and membrane interactions.\n\n\n\nMolecular simulation of nanoplastics and their interfaces.\n\n\nThese applications are not separate from the methodological work. They ask the same fundamental question under particularly demanding conditions: how does collective behaviour emerge from molecular identity in systems that span many coupled scales?\nSelected publications"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Giuseppe Milano",
+    "section": "",
+    "text": "I work at the border between two ways of understanding matter: the chemist’s attention to molecular identity and the physicist’s search for mathematical and computational descriptions.\nI want to understand how molecular interactions give rise to collective behaviour, and how this connection can be represented across different levels of resolution. Multiscale molecular simulation provides a way to connect different scales, following the emergence of collective behaviour without losing chemical specificity.\nAcross polymers, biomembranes, surfactants, nanocomposites, and nanoplastics, the underlying goal remains the same: connecting molecular detail with collective organization without sacrificing either. A central and continuing focus of my work is hybrid particle–field molecular dynamics (hPF‑MD). For more than fifteen years, I have continued to advance this approach and its implementation in OCCAM, a massively parallel molecular simulation code that combines chemically specific molecular models with field-based descriptions of non-bonded interactions, enabling simulations of large and complex systems without losing molecular architecture and identity."
+  },
+  {
+    "objectID": "index.html#themes-in-my-work",
+    "href": "index.html#themes-in-my-work",
+    "title": "Giuseppe Milano",
+    "section": "Themes in my work",
+    "text": "Themes in my work\n\n\n\n\nMolecular Simulation and Statistical Mechanics\nCoarse-graining, particle–field models, and high-performance molecular simulation.\n\n\n\n\n\nPolymers and Soft Matter\nPolymer dynamics, complex molecular architectures, and collective organization.\n\n\n\n\n\nPhase Transitions and Molecular Organization\nSolid–liquid and liquid-crystalline transitions, polymorphism, metastability, and history-dependent molecular organization in complex materials.\n\n\n\n\n\nInterfaces and Nanomaterials\nPolymer composites, Brushes, Hierarchical Fillers\n\n\n\n\n\nBiological and Environmental Systems\nBiomembranes, complex biointerfaces, and the molecular behaviour of nanoplastics."
+  },
+  {
     "objectID": "join.html",
     "href": "join.html",
     "title": "Join",
@@ -236,90 +369,6 @@
     "title": "Join",
     "section": "Contact",
     "text": "Contact\nIf you are interested, please send me a short email including:\n\nwho you are and what you are currently studying or doing;\nwhy you are interested in this research area;\nany relevant experience with simulation, programming or soft matter;\nyour CV, if available.\n\nEmail: giuseppe.milano@unina.it"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Giuseppe Milano",
-    "section": "",
-    "text": "I work at the border between two ways of understanding matter: the chemist’s attention to molecular identity and the physicist’s search for mathematical and computational descriptions.\nI want to understand how molecular interactions give rise to collective behaviour, and how this connection can be represented across different levels of resolution. Multiscale molecular simulation provides a way to connect different scales, following the emergence of collective behaviour without losing chemical specificity.\nAcross polymers, biomembranes, surfactants, nanocomposites, and nanoplastics, the underlying goal remains the same: connecting molecular detail with collective organization without sacrificing either. A central and continuing focus of my work is hybrid particle–field molecular dynamics (hPF‑MD). For more than fifteen years, I have continued to advance this approach and its implementation in OCCAM, a massively parallel molecular simulation code that combines chemically specific molecular models with field-based descriptions of non-bonded interactions, enabling simulations of large and complex systems without losing molecular architecture and identity."
-  },
-  {
-    "objectID": "index.html#themes-in-my-work",
-    "href": "index.html#themes-in-my-work",
-    "title": "Giuseppe Milano",
-    "section": "Themes in my work",
-    "text": "Themes in my work\n\n\n\n\nMolecular Simulation and Statistical Mechanics\nCoarse-graining, particle–field models, and high-performance molecular simulation.\n\n\n\n\n\nPolymers and Soft Matter\nPolymer dynamics, complex molecular architectures, and collective organization.\n\n\n\n\n\nPhase Transitions and Molecular Organization\nSolid–liquid and liquid-crystalline transitions, polymorphism, metastability, and history-dependent molecular organization in complex materials.\n\n\n\n\n\nInterfaces and Nanomaterials\nPolymer composites, Brushes, Hierarchical Fillers\n\n\n\n\n\nBiological and Environmental Systems\nBiomembranes, complex biointerfaces, and the molecular behaviour of nanoplastics."
-  },
-  {
-    "objectID": "biological-environmental-systems.html",
-    "href": "biological-environmental-systems.html",
-    "title": "Biological and Environmental Systems",
-    "section": "",
-    "text": "Biological and environmental systems test whether multiscale models can retain meaningful chemical specificity while addressing strongly heterogeneous, dynamic and compositionally complex matter."
-  },
-  {
-    "objectID": "biological-environmental-systems.html#biomembranes",
-    "href": "biological-environmental-systems.html#biomembranes",
-    "title": "Biological and Environmental Systems",
-    "section": "Biomembranes",
-    "text": "Biomembranes\nMembranes are organized, heterogeneous and dynamic. Their behaviour depends on molecular architecture, lipid composition, headgroup chemistry, tail structure, electrostatics, hydration and interactions with surrounding molecules or particles.\n\n\n\nCoarse-grained molecular model of a lipid membrane.\n\n\nBacterial membranes, particularly models inspired by the outer membrane of Gram-negative bacteria, are especially demanding because chemical specificity and collective organization are tightly coupled. They provide a stringent setting for testing how far coarse-grained and particle–field models can be pushed while remaining connected to molecular detail.\n\n\n\nComplex bacterial lipid membrane."
-  },
-  {
-    "objectID": "biological-environmental-systems.html#nanoplastics-and-biointerfaces",
-    "href": "biological-environmental-systems.html#nanoplastics-and-biointerfaces",
-    "title": "Biological and Environmental Systems",
-    "section": "Nanoplastics and biointerfaces",
-    "text": "Nanoplastics and biointerfaces\nMy environmental work follows plastic nanoparticles from their material structure to their interactions with water, ions and biological matter. The aim is to understand how polymer composition, surface chemistry, morphology and ageing influence aggregation, interfacial organization and membrane interactions.\n\n\n\nMolecular simulation of nanoplastics and their interfaces.\n\n\nThese applications are not separate from the methodological work. They ask the same fundamental question under particularly demanding conditions: how does collective behaviour emerge from molecular identity in systems that span many coupled scales?\nSelected publications"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "Department of Chemical, Materials and Production Engineering\nUniversity of Naples Federico II\nNaples, Italy\nEmail: giuseppe.milano@unina.it"
-  },
-  {
-    "objectID": "contact.html#giuseppe-milano",
-    "href": "contact.html#giuseppe-milano",
-    "title": "Contact",
-    "section": "",
-    "text": "Department of Chemical, Materials and Production Engineering\nUniversity of Naples Federico II\nNaples, Italy\nEmail: giuseppe.milano@unina.it"
-  },
-  {
-    "objectID": "contact.html#profiles",
-    "href": "contact.html#profiles",
-    "title": "Contact",
-    "section": "Profiles",
-    "text": "Profiles\n\nUniversity profile: coming soon\nORCID: coming soon\nGoogle Scholar: coming soon\nGitHub: coming soon"
-  },
-  {
-    "objectID": "interfaces-nanomaterials.html",
-    "href": "interfaces-nanomaterials.html",
-    "title": "Interfaces and Nanomaterials",
-    "section": "",
-    "text": "Structure, thermodynamics and molecular organization at complex interfaces.\nInterfaces are where molecular specificity and collective organization meet most directly. My work examines how polymers and complex molecular fluids organize near nanoparticles, solid surfaces and grafted materials, and how this interfacial structure influences macroscopic behaviour."
-  },
-  {
-    "objectID": "interfaces-nanomaterials.html#polymernanoparticle-interfaces",
-    "href": "interfaces-nanomaterials.html#polymernanoparticle-interfaces",
-    "title": "Interfaces and Nanomaterials",
-    "section": "Polymer–nanoparticle interfaces",
-    "text": "Polymer–nanoparticle interfaces\nNanocomposites pose a characteristic multiscale problem: the local chemistry of a surface controls adsorption and packing, while the response of polymer chains extends far into the surrounding material. Coarse-grained and hybrid particle–field models make it possible to study these extended interphases without reducing the polymer to a chemically anonymous medium.\n\n\n\nPolymer organization around carbon black."
-  },
-  {
-    "objectID": "interfaces-nanomaterials.html#grafted-and-structured-surfaces",
-    "href": "interfaces-nanomaterials.html#grafted-and-structured-surfaces",
-    "title": "Interfaces and Nanomaterials",
-    "section": "Grafted and structured surfaces",
-    "text": "Grafted and structured surfaces\nPolymer brushes and grafted nanoparticles provide controlled systems in which chain architecture, grafting density, solvent conditions and surface curvature compete. They allow simulations to connect molecular design with steric stabilization, interfacial response and the organization of surrounding molecules.\n\n\n\nMolecular simulation of grafted polymer materials."
-  },
-  {
-    "objectID": "interfaces-nanomaterials.html#complex-material-interfaces",
-    "href": "interfaces-nanomaterials.html#complex-material-interfaces",
-    "title": "Interfaces and Nanomaterials",
-    "section": "Complex material interfaces",
-    "text": "Complex material interfaces\nI use these systems not only as applications, but also as demanding tests of simulation methodology. Heterogeneous interfaces require models that can retain distinct chemical components while following collective rearrangements over large domains and long times.\n\n\n\nMolecular modelling of carbon-black interfaces.\n\n\nSelected publications"
   },
   {
     "objectID": "multiscale-methods.html",
