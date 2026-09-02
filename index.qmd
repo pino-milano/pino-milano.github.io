@@ -34,15 +34,23 @@ Polymer dynamics, complex molecular architectures, and collective organization.
 :::
 
 ::: {.g-col-12 .g-col-md-6}
-[![](assets/figures/covers/cover_carbonblack_macromolecules.jpeg){fig-alt="Molecular organization at a carbon black polymer interface"}](interfaces-nanomaterials.qmd)
+[![](assets/figures/phase_trans.jpg){fig-alt="Phase transitions and molecular organization"}](phase-transitions.qmd)
 
-### [Interfaces and Nanomaterials](interfaces-nanomaterials.qmd)
+### [Phase Transitions and Molecular Organization](phase-transitions.qmd)
 
-Molecular organization at polymer, nanoparticle, and material interfaces.
+Solid–liquid and liquid-crystalline transitions, polymorphism, metastability, and history-dependent molecular organization in complex materials.
 :::
 
 ::: {.g-col-12 .g-col-md-6}
-[![](assets/figures/biolipids.jpg){fig-alt="Molecular model of a complex biological membrane"}](biological-environmental-systems.qmd)
+[![](assets/figures/carbonblack_macromolecules.jpg){fig-alt="Molecular organization at a carbon black polymer interface"}](interfaces-nanomaterials.qmd)
+
+### [Interfaces and Nanomaterials](interfaces-nanomaterials.qmd)
+Polymer composites, Brushes, Hierarchical Fillers
+:::
+
+::: {.g-col-12 .g-col-md-6}
+
+[![](assets/figures/biolipids.jpg){fig-alt="microbial lipids"}](interfaces-nanomaterials.qmd)
 
 ### [Biological and Environmental Systems](biological-environmental-systems.qmd)
 

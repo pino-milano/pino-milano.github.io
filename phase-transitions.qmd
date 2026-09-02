@@ -1,0 +1,38 @@
+# Phase Transitions and Molecular Organization
+
+A recurring theme in my research is understanding how molecular structure, intermolecular interactions, and packing determine phase behaviour and collective organization.
+
+This interest has included liquid–solid transitions and polymorphism in triglycerides, molecular mechanisms underlying transformations between ordered liquid-crystalline phases, and, more recently, the persistence of local order above melting in semicrystalline polymers.
+
+Across these different systems, a common question is how molecular organization develops, transforms, and can persist across phase transitions.
+
+---
+
+
+:::
+
+## Selected papers
+
+- **How Polymer Chains Remember Their Crystalline Past: Simulations Uncover the Molecular Origin of Melt Memory**  
+  *Journal of the American Chemical Society* (2026)  
+  [DOI: 10.1021/jacs.6c13790](https://doi.org/10.1021/jacs.6c13790)
+
+- **Flip-flop dynamics in smectic liquid-crystal organic semiconductors revealed by molecular dynamics simulations**  
+  *Chemical Communications* (2024)  
+  [DOI: 10.1039/D3CC05222B](https://doi.org/10.1039/D3CC05222B)
+
+- **Molecular Insights into the Eutectic Tripalmitin/Tristearin Binary System**  
+  *Journal of the American Chemical Society* (2018)  
+  [DOI: 10.1021/jacs.8b04729](https://doi.org/10.1021/jacs.8b04729)
+
+- **Coarse-grained modelling of triglyceride crystallisation: a molecular insight into tripalmitin/tristearin binary mixtures by molecular dynamics simulations**  
+  *Journal of Physics D: Applied Physics* (2015)  
+  [DOI: 10.1088/0022-3727/48/49/494004](https://doi.org/10.1088/0022-3727/48/49/494004)
+
+- **A multiscale approach to triglycerides simulations: from atomistic to coarse-grained models and back**  
+  *Faraday Discussions* (2012)  
+  [DOI: 10.1039/C2FD20037F](https://doi.org/10.1039/C2FD20037F)
+
+- **Development of a coarse-grained model for simulations of tridecanoin liquid-solid phase transitions**  
+  *Physical Chemistry Chemical Physics* (2011)  
+  [DOI: 10.1039/C1CP20604D](https://doi.org/10.1039/C1CP20604D)
