@@ -287,13 +287,6 @@
     "text": "Department of Chemical, Materials and Production Engineering\nUniversity of Naples Federico II\nNaples, Italy\nEmail: giuseppe.milano@unina.it"
   },
   {
-    "objectID": "contact.html#profiles",
-    "href": "contact.html#profiles",
-    "title": "Contact",
-    "section": "Profiles",
-    "text": "Profiles\n\nUniversity profile: coming soon\nORCID: coming soon\nGoogle Scholar: coming soon\nGitHub: coming soon"
-  },
-  {
     "objectID": "biological-environmental-systems.html",
     "href": "biological-environmental-systems.html",
     "title": "Biological and Environmental Systems",
@@ -319,7 +312,7 @@
     "href": "index.html",
     "title": "Giuseppe Milano",
     "section": "",
-    "text": "I work at the border between two ways of understanding matter: the chemist’s attention to molecular identity and the physicist’s search for mathematical and computational descriptions.\nI want to understand how molecular interactions give rise to collective behaviour, and how this connection can be represented across different levels of resolution. Multiscale molecular simulation provides a way to connect different scales, following the emergence of collective behaviour without losing chemical specificity.\nAcross polymers, biomembranes, surfactants, nanocomposites, and nanoplastics, the underlying goal remains the same: connecting molecular detail with collective organization without sacrificing either. A central and continuing focus of my work is hybrid particle–field molecular dynamics (hPF‑MD). For more than fifteen years, I have continued to advance this approach and its implementation in OCCAM, a massively parallel molecular simulation code that combines chemically specific molecular models with field-based descriptions of non-bonded interactions, enabling simulations of large and complex systems without losing molecular architecture and identity."
+    "text": "[Full Professor] 📍 [University of Naples Federico II], [Napoli, Italy]\nI work at the border between two ways of understanding matter: the chemist’s attention to molecular identity and the physicist’s search for mathematical and computational descriptions.\nI want to understand how molecular interactions give rise to collective behaviour, and how this connection can be represented across different levels of resolution. Multiscale molecular simulation provides a way to connect different scales, following the emergence of collective behaviour without losing chemical specificity.\nAcross polymers, biomembranes, surfactants, nanocomposites, and nanoplastics, the underlying goal remains the same: connecting molecular detail with collective organization without sacrificing either. A central and continuing focus of my work is hybrid particle–field molecular dynamics (hPF‑MD). For more than fifteen years, I have continued to advance this approach and its implementation in OCCAM, a massively parallel molecular simulation code that combines chemically specific molecular models with field-based descriptions of non-bonded interactions, enabling simulations of large and complex systems without losing molecular architecture and identity."
   },
   {
     "objectID": "index.html#themes-in-my-work",
