@@ -1,0 +1,69 @@
+---
+title: "Ways into Molecular Simulation"
+---
+
+There is no single route into molecular simulation.
+
+Students and researchers may enter the field from different starting points and follow different directions depending on whether their main interest is practical modelling, theoretical understanding, statistical mechanics, numerical methods, or software development.
+
+These routes are not alternatives in a strict sense. They often intersect and gradually converge.
+
+## An application-oriented route
+
+A practical entry point may start from an applied textbook and from the informed use of established simulation packages such as GROMACS, LAMMPS, or related tools.
+
+The emphasis is on learning how to construct molecular models, prepare systems, choose appropriate simulation protocols, analyse trajectories, and critically assess the physical meaning and limitations of the results.
+
+Useful starting points:
+
+- [GROMACS documentation](https://manual.gromacs.org/)
+- [GROMACS tutorials by Justin Lemkul](https://www.mdtutorials.com/gmx/)
+- [LAMMPS documentation](https://docs.lammps.org/)
+
+## A theory-and-methods route
+
+A more fundamental route may begin with a text such as *Understanding Molecular Simulation* by Daan Frenkel and Berend Smit.
+
+This path naturally leads toward statistical sampling, numerical algorithms, free-energy methods, force-field implementation, and progressively more demanding case studies.
+
+Recommended texts:
+
+- D. Frenkel and B. Smit, *Understanding Molecular Simulation*
+- M. P. Allen and D. J. Tildesley, *Computer Simulation of Liquids*
+- A. R. Leach, *Molecular Modelling: Principles and Applications*
+
+## From statistical mechanics to simulation
+
+Molecular simulation can also be approached as a natural continuation of a course in statistical mechanics.
+
+From this perspective, simulation becomes a numerical laboratory in which concepts such as ensembles, probability distributions, fluctuations, correlation functions, free energies, and phase behaviour become directly observable.
+
+The emphasis is less on learning a particular software package and more on understanding how statistical-mechanical concepts are translated into measurable quantities and computational experiments.
+
+## Learning by coding
+
+Another route is to learn simulation methods by implementing simple models and algorithms directly.
+
+A possible progression is:
+
+1. Implement a small Lennard-Jones system and compute pair interactions.
+2. Integrate the equations of motion using velocity-Verlet.
+3. Check conservation laws in the NVE ensemble.
+4. Compute observables such as temperature, pressure, radial distribution functions, mean-square displacement, and diffusion coefficients.
+5. Implement a simple Monte Carlo simulation and compare averages obtained from MD and MC.
+6. Repeat selected problems using a mature package such as GROMACS or LAMMPS.
+7. Inspect the internal structure of real simulation codes: neighbour lists, force loops, data structures, and parallelization.
+
+Python is often ideal for understanding ideas quickly and testing algorithms. Familiarity with a compiled language such as C, C++, or Fortran becomes increasingly useful when moving from using simulation software to understanding or developing it.
+
+> Coding a small simulation is not an alternative to using mature simulation packages: it is a way of understanding what those packages are actually doing.
+
+## How the routes connect
+
+Someone who starts from GROMACS may later want to understand integration algorithms or statistical ensembles.
+
+Someone coming from statistical mechanics may eventually need practical expertise with production simulation software.
+
+Someone interested in methods may move naturally toward low-level implementation, code development, and high-performance computing.
+
+The important point is not where one starts, but how progressively one connects physical concepts, numerical methods, molecular models, software tools, and scientific questions.

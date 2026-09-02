@@ -1,5 +1,10 @@
 # Teaching
 
+![](assets/figures/blackboard.png){
+  fig-alt="Blackboard"
+  width=85%
+}
+
 ## Statistical Mechanics
 
 **Bachelor’s Degree in Materials Engineering**
@@ -24,5 +29,16 @@ The course covers the basic principles of molecular modelling and molecular dyna
 This module introduces numerical approaches to the modelling of materials, emphasizing the connection between physical models, mathematical formulation and computational implementation.
 
 The course is addressed to students with a strong mathematical background and provides a perspective on how numerical methods can be used to describe material behaviour at different levels of resolution.
+
+
+## Learning resources
+
+Beyond the courses listed above, I am collecting a few learning paths for students interested in molecular simulation and related computational approaches.
+
+### Ways into Molecular Simulation
+
+There is no single route into molecular simulation. One may start from applications and simulation software, from statistical mechanics, from numerical methods, or from coding and algorithm development.
+
+[Explore the different learning paths →](molecular-simulation-roadmap.qmd)
 
 For official course information and institutional details, see my [University faculty page](https://www.docenti.unina.it/giuseppe.milano).
