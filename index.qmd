@@ -1,6 +1,8 @@
 ---
 title: "Giuseppe Milano"
 ---
+**[Full Professor]**
+📍 [University of Naples Federico II], [Napoli, Italy]  
 
 ![](assets/figures/giuseppe-milano.jpeg){.profile-photo fig-alt="Giuseppe Milano"}
 
